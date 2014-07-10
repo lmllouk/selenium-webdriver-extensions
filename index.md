@@ -42,36 +42,37 @@ var driver = new ChromeDriver();
 driver.FindElements(By.JQuerySelector("input:visible"))
 {% endhighlight %}
 
-#### Chaining
+## Chaining
 You can also chain jQuery traversing methods.
-```csharp
+
+{% highlight csharp %}
 var driver = new ChromeDriver();
 var selector = By.JQuerySelector("div.myclass").Parents(".someClass").NextAll();
 driver.FindElement(selector);
-```
+{% endhighlight %}
 
-#### jQuery loading
+## jQuery loading
 If the site that you are testing with Selenium does not include jQuery this extension will automatically load the latest version when you run `FindElement` or `FindElements` method. If you want you can choose to load a different version of jQuery.
 
-```csharp
+{% highlight csharp %}
 var driver = new ChromeDriver();
 driver.LoadJQuery("1.11.0");
-```
+{% endhighlight %}
 
-#### jQuery variable name
+## jQuery variable name
 When you create a jQuery selector using `By` helper class the resulting selector will use `jQuery` as library variable name. If you site is using a different variable name for this purpose you can pass this value as an optional parameter.
 
-```csharp
+{% highlight csharp %}
 var driver = new ChromeDriver();
 var selector = By.JQuerySelector("div", jQueryVariable: "myJQuery");
-```
+{% endhighlight %}
 
-#### jQuery context switch
+## jQuery context switch
 You can use one `JQuerySelector` as a context of another `JQuerySelector`.
 
-```csharp
+{% highlight csharp %}
 var driver = new ChromeDriver();
 var context = By.JQuerySelector("div.myClass");
 var selector = By.JQuerySelector("ol li", context);
 driver.FindElements(selector);
-```
+{% endhighlight %}
