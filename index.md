@@ -26,7 +26,7 @@ Install-Package Selenium.WebDriver.Extensions
 
 # Usage
 
-#### Include extensions
+## Include extensions
 Include extensions namespace and set the derived `By` to be used.
 
 {% highlight csharp %}
@@ -34,7 +34,7 @@ using Selenium.WebDriver.Extensions;
 using By = Selenium.WebDriver.Extensions.By;
 {% endhighlight %}
 
-#### Basic example
+## Basic example
 Invoke jQuery selectors on the WebDriver.
 
 {% highlight csharp %}
