@@ -8,6 +8,7 @@ Extensions for Selenium WebDriver including jQuery selector support for `FindEle
 
 # Features
 Some of the most important features of this library include:
+
 * Generates jQuery selectors that can be used by Selenium WebDrivers to perform searches that CSS can't do
 * Allows jQuery selectors to be used even on sites that don't use jQuery as it can load before performing a first search
 * Very easy setup: install package with NuGet, include a namespace and start using it
