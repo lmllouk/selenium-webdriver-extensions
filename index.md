@@ -25,6 +25,9 @@ Run the following command in Visual Studio Packet Manager Console.
 Install-Package Selenium.WebDriver.Extensions
 {% endhighlight %}
 
+# Documentation
+API documentation can be found [here](https://rayell.github.io/selenium-webdriver-extensions/api).
+
 # Usage
 
 ## Include extensions
