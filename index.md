@@ -4,7 +4,7 @@ title: Selenium WebDriver Extensions | selenium-webdriver-extensions | RaYell's 
 ---
 
 # Description
-Extensions for Selenium WebDriver including jQuery selector support for `FindElement` and `FindElements` methods.
+Extensions for Selenium WebDriver including jQuery selector support.
 
 # Features
 Some of the most important features of this library include:
