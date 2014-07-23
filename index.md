@@ -7,7 +7,7 @@ title: Selenium WebDriver Extensions | selenium-webdriver-extensions | RaYell's 
 Extensions for Selenium WebDriver including jQuery selector support.
 
 # Features
-Some of the most important features of this library include:
+Some of the features of this library are:
 
 * Generates jQuery selectors that can be used by Selenium WebDrivers to perform searches that CSS can't do
 * Allows jQuery selectors to be used even on sites that don't use jQuery as it can load before performing a first search
@@ -72,7 +72,7 @@ var selector = By.JQuerySelector("div", jQueryVariable: "myJQuery");
 {% endhighlight %}
 
 ## jQuery context switch
-You can use one `JQuerySelector` as a context of another `JQuerySelector`.
+You can use one `JQuerySelector` instance as a context of another `JQuerySelector`.
 
 {% highlight csharp %}
 var driver = new ChromeDriver();
