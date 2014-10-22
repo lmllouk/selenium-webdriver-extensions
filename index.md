@@ -4,16 +4,16 @@ title: Selenium WebDriver Extensions | selenium-webdriver-extensions | RaYell's 
 ---
 
 # Description
-Extensions for Selenium WebDriver including jQuery selector support.
+Extensions for Selenium WebDriver including jQuery and Sizzle selector support.
 
 # Features
 Some of the features of this library are:
 
-* Generates jQuery selectors that can be used by Selenium WebDrivers to perform searches that CSS can't do
-* Allows jQuery selectors to be used even on sites that don't use jQuery as it can load before performing a first search
+* Generates jQuery and Sizzle selectors that can be used by Selenium WebDrivers to perform searches that CSS can't do
+* Allows jQuery and Sizzle selectors to be used even on sites that don't use jQuery or Sizzle as it can load the library before performing a first search
 * Very easy setup: install package with NuGet, include a namespace and start using it
 * Supports jQuery traversing methods for generation of complex selector chains
-* Supports jQuery context switching
+* Supports jQuery and Sizzle context switching
 * CI with Appveyor
 * 100% code coverage with nUnit tests
 * Well documented code following strict StyleCop and FxCop rules.
@@ -38,7 +38,7 @@ using Selenium.WebDriver.Extensions;
 using By = Selenium.WebDriver.Extensions.By;
 {% endhighlight %}
 
-## Basic example
+## Basic jQuery example
 Invoke jQuery selectors on the WebDriver.
 
 {% highlight csharp %}
@@ -46,7 +46,7 @@ var driver = new ChromeDriver();
 driver.FindElements(By.JQuerySelector("input:visible"))
 {% endhighlight %}
 
-## Chaining
+## Chaining jQuery methods
 You can also chain jQuery traversing methods.
 
 {% highlight csharp %}
@@ -78,5 +78,31 @@ You can use one `JQuerySelector` instance as a context of another `JQuerySelecto
 var driver = new ChromeDriver();
 var context = By.JQuerySelector("div.myClass");
 var selector = By.JQuerySelector("ol li", context);
+driver.FindElements(selector);
+{% endhighlight %}
+
+## Basic Sizzle example
+Invoke Sizzle selectors on the WebDriver.
+
+{% highlight csharp %}
+var driver = new ChromeDriver();
+driver.FindElements(By.SizzleSelector("input:visible"))
+{% endhighlight %}
+
+## Sizzle loading
+If the site that you are testing with Selenium does not include Sizzle this extension will automatically load the latest version when you run `FindElement` or `FindElements` method. If you want you can choose to load a different version of jQuery.
+
+{% highlight csharp %}
+var driver = new ChromeDriver();
+driver.LoadSizzle("1.11.1");
+{% endhighlight %}
+
+## Sizzle context switch
+You can use one `SizzleSelector` instance as a context of another `SizzleSelector`.
+
+{% highlight csharp %}
+var driver = new ChromeDriver();
+var context = By.SizzleSelector("div.myClass");
+var selector = By.SizzleSelector("ol li", context);
 driver.FindElements(selector);
 {% endhighlight %}
