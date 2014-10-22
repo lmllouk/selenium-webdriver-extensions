@@ -18,13 +18,17 @@
   <HelpKINode Title="By.LinkText method" Url="html/150aa0e9-eff0-d4aa-9e5c-2f91bd0fc2d8.htm" />
   <HelpKINode Title="By.Name method" Url="html/4427017c-e8e2-10c2-bab8-cc9f41d25968.htm" />
   <HelpKINode Title="By.PartialLinkText method" Url="html/b987df82-224b-3f7e-c321-b6fe10f6be2e.htm" />
+  <HelpKINode Title="By.SizzleSelector method" Url="html/6ba2bb22-81ba-48dd-750f-dbc311290c4b.htm" />
   <HelpKINode Title="By.TagName method" Url="html/2ec7d2b3-ec59-2141-0bbe-0d37de770f7f.htm" />
   <HelpKINode Title="By.XPath method" Url="html/9774e80e-f168-4b35-c1d0-254aa38c22fc.htm" />
   <HelpKINode Title="Children method" Url="html/66f94eb0-35c6-ed34-22c3-840d1ab3aba0.htm" />
   <HelpKINode Title="ClassName method" Url="html/8e55946a-f7c0-2c4a-cbbc-a4d22db82f83.htm" />
   <HelpKINode Title="Closest method" Url="html/3c09420c-2bc5-4d61-8a50-94bc5b99076f.htm" />
   <HelpKINode Title="Contents method" Url="html/7d501f74-c50f-f48d-b2ea-06e2b59d87da.htm" />
-  <HelpKINode Title="Context property" Url="html/e9ecaac3-4e9c-038a-1dff-db10de8e27ea.htm" />
+  <HelpKINode Title="Context property">
+    <HelpKINode Title="JQuerySelector.Context Property " Url="html/e9ecaac3-4e9c-038a-1dff-db10de8e27ea.htm" />
+    <HelpKINode Title="SizzleSelector.Context Property " Url="html/22687646-a205-1bd9-1c99-d0213b2d1518.htm" />
+  </HelpKINode>
   <HelpKINode Title="CssSelector method" Url="html/1234aa23-c108-cb4c-e096-d05b136bfb47.htm" />
   <HelpKINode Title="End method" Url="html/ebc5c1e5-b637-461d-c59f-16428502abdd.htm" />
   <HelpKINode Title="Eq method" Url="html/f7f1f370-6cdd-f34d-1d25-725d84d21bd0.htm" />
@@ -34,8 +38,8 @@
   <HelpKINode Title="FindCount method" Url="html/ebb16c80-1ae8-6b1e-0694-2498df09a49f.htm" />
   <HelpKINode Title="FindCss method" Url="html/7e600a0e-9a4e-0184-ccdd-17f0f4f1d616.htm" />
   <HelpKINode Title="FindData method" Url="html/ea1beb6b-3d2f-0515-6514-c01334a66ae0.htm" />
-  <HelpKINode Title="FindElement method" Url="html/38a89517-5920-070a-c614-fb4fa4327cbd.htm" />
-  <HelpKINode Title="FindElements method" Url="html/06793597-31d8-f29e-33cf-cdf64f825ed4.htm" />
+  <HelpKINode Title="FindElement method" Url="html/85c69c26-be10-4e87-c79d-171c15b7192c.htm" />
+  <HelpKINode Title="FindElements method" Url="html/2004bbcc-d4e7-233a-2198-442cb980afcd.htm" />
   <HelpKINode Title="FindHeight method" Url="html/866efd93-6ed0-3c97-8bc6-b098f471e598.htm" />
   <HelpKINode Title="FindHtml method" Url="html/ae1315fb-4211-3445-59cc-72678dfb7d32.htm" />
   <HelpKINode Title="FindInnerHeight method" Url="html/f21c67ee-389c-dbdf-106d-6485b8cdc261.htm" />
@@ -101,6 +105,7 @@
   <HelpKINode Title="Left property" Url="html/e3a1166e-884c-9e98-d3ff-4655e169609e.htm" />
   <HelpKINode Title="LinkText method" Url="html/150aa0e9-eff0-d4aa-9e5c-2f91bd0fc2d8.htm" />
   <HelpKINode Title="LoadJQuery method" Url="html/ff3f4e75-b54b-113d-85ac-184212808d7e.htm" />
+  <HelpKINode Title="LoadSizzle method" Url="html/72871a3b-7f4c-9eea-38c7-e9424c73a1ba.htm" />
   <HelpKINode Title="Name method" Url="html/4427017c-e8e2-10c2-bab8-cc9f41d25968.htm" />
   <HelpKINode Title="Next method" Url="html/6c10b9ce-0265-6310-af3c-ba9938d57e1c.htm" />
   <HelpKINode Title="NextAll method" Url="html/e6885001-4a23-291b-a323-1495f50a02c4.htm" />
@@ -124,18 +129,37 @@
   <HelpKINode Title="Prev method" Url="html/1adb1558-0649-6c3e-4ae9-82928f5cf5fd.htm" />
   <HelpKINode Title="PrevAll method" Url="html/431c2d79-a276-cfc5-58a2-c316c81b6094.htm" />
   <HelpKINode Title="PrevUntil method" Url="html/7ace5062-a91b-2589-d726-709cfc085cd5.htm" />
-  <HelpKINode Title="Selector property" Url="html/9bcc8fdc-bcac-c74a-f6e1-87008c15abcd.htm" />
+  <HelpKINode Title="Selector property">
+    <HelpKINode Title="JQuerySelector.Selector Property " Url="html/9bcc8fdc-bcac-c74a-f6e1-87008c15abcd.htm" />
+    <HelpKINode Title="SizzleSelector.Selector Property " Url="html/8c05f3fb-c783-5506-c1b8-fe27c1070b45.htm" />
+  </HelpKINode>
   <HelpKINode Title="Selenium.WebDriver.Extensions namespace" Url="html/91662fe6-f686-8214-42f5-faa33b7b5f75.htm" />
   <HelpKINode Title="Selenium.WebDriver.Extensions.By class" Url="html/731ada8c-3d56-c96e-e9f1-5c149f5296cd.htm" />
   <HelpKINode Title="Selenium.WebDriver.Extensions.JQuerySelector class" Url="html/fecb2b56-56e6-397e-e944-30f9d3a00371.htm" />
   <HelpKINode Title="Selenium.WebDriver.Extensions.Position class" Url="html/2e3657cb-b854-5e1b-36f3-8df6576b1fec.htm" />
+  <HelpKINode Title="Selenium.WebDriver.Extensions.SizzleSelector class" Url="html/884eb429-981d-a631-2d12-ac989db1bb83.htm" />
   <HelpKINode Title="Selenium.WebDriver.Extensions.TypeArgumentException class" Url="html/0827e29b-f5ec-1731-0661-e5abdd52eefd.htm" />
   <HelpKINode Title="Selenium.WebDriver.Extensions.WebDriverExtensions class" Url="html/48a520e5-54ca-cdec-6280-d276539fdd76.htm" />
   <HelpKINode Title="Siblings method" Url="html/a38fa941-9739-e78d-def8-4864e13d445e.htm" />
+  <HelpKINode Title="SizzleSelector class">
+    <HelpKINode Title="SizzleSelector Class" Url="html/884eb429-981d-a631-2d12-ac989db1bb83.htm" />
+    <HelpKINode Title="about SizzleSelector class" Url="html/884eb429-981d-a631-2d12-ac989db1bb83.htm" />
+    <HelpKINode Title="constructor" Url="html/f985fa6c-1355-d6eb-ff09-342fb62d5312.htm" />
+    <HelpKINode Title="methods" Url="html/ed6abf0b-c8a3-0ce1-a3b5-3d00df3690f2.htm" />
+    <HelpKINode Title="properties" Url="html/6551a92d-d1fc-50f9-392b-2a15458bf0de.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SizzleSelector method" Url="html/6ba2bb22-81ba-48dd-750f-dbc311290c4b.htm" />
+  <HelpKINode Title="SizzleSelector.Context property" Url="html/22687646-a205-1bd9-1c99-d0213b2d1518.htm" />
+  <HelpKINode Title="SizzleSelector.Selector property" Url="html/8c05f3fb-c783-5506-c1b8-fe27c1070b45.htm" />
+  <HelpKINode Title="SizzleSelector.SizzleSelector constructor" Url="html/f985fa6c-1355-d6eb-ff09-342fb62d5312.htm" />
+  <HelpKINode Title="SizzleSelector.ToString method" Url="html/a83b982c-8e98-c56e-069c-e8d85975a25b.htm" />
   <HelpKINode Title="Slice method" Url="html/5de87a50-5544-9323-aef3-d9417b2209fc.htm" />
   <HelpKINode Title="TagName method" Url="html/2ec7d2b3-ec59-2141-0bbe-0d37de770f7f.htm" />
   <HelpKINode Title="Top property" Url="html/81bbe2c3-9377-b459-8d52-d6496bdafe58.htm" />
-  <HelpKINode Title="ToString method" Url="html/5a64bcdb-c928-0377-ae0a-06ba8fa517ab.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="JQuerySelector.ToString Method " Url="html/5a64bcdb-c928-0377-ae0a-06ba8fa517ab.htm" />
+    <HelpKINode Title="SizzleSelector.ToString Method " Url="html/a83b982c-8e98-c56e-069c-e8d85975a25b.htm" />
+  </HelpKINode>
   <HelpKINode Title="TypeArgumentException class">
     <HelpKINode Title="TypeArgumentException Class" Url="html/0827e29b-f5ec-1731-0661-e5abdd52eefd.htm" />
     <HelpKINode Title="about TypeArgumentException class" Url="html/0827e29b-f5ec-1731-0661-e5abdd52eefd.htm" />
@@ -154,8 +178,8 @@
   <HelpKINode Title="WebDriverExtensions.FindCount method" Url="html/ebb16c80-1ae8-6b1e-0694-2498df09a49f.htm" />
   <HelpKINode Title="WebDriverExtensions.FindCss method" Url="html/7e600a0e-9a4e-0184-ccdd-17f0f4f1d616.htm" />
   <HelpKINode Title="WebDriverExtensions.FindData method" Url="html/ea1beb6b-3d2f-0515-6514-c01334a66ae0.htm" />
-  <HelpKINode Title="WebDriverExtensions.FindElement method" Url="html/38a89517-5920-070a-c614-fb4fa4327cbd.htm" />
-  <HelpKINode Title="WebDriverExtensions.FindElements method" Url="html/06793597-31d8-f29e-33cf-cdf64f825ed4.htm" />
+  <HelpKINode Title="WebDriverExtensions.FindElement method" Url="html/85c69c26-be10-4e87-c79d-171c15b7192c.htm" />
+  <HelpKINode Title="WebDriverExtensions.FindElements method" Url="html/2004bbcc-d4e7-233a-2198-442cb980afcd.htm" />
   <HelpKINode Title="WebDriverExtensions.FindHeight method" Url="html/866efd93-6ed0-3c97-8bc6-b098f471e598.htm" />
   <HelpKINode Title="WebDriverExtensions.FindHtml method" Url="html/ae1315fb-4211-3445-59cc-72678dfb7d32.htm" />
   <HelpKINode Title="WebDriverExtensions.FindInnerHeight method" Url="html/f21c67ee-389c-dbdf-106d-6485b8cdc261.htm" />
@@ -173,5 +197,6 @@
   <HelpKINode Title="WebDriverExtensions.FindValue method" Url="html/f074f67f-d9cb-b35a-1c00-dfd4919abf42.htm" />
   <HelpKINode Title="WebDriverExtensions.FindWidth method" Url="html/d7b98ae6-c3fd-b7da-bc4e-5d81a3a28a85.htm" />
   <HelpKINode Title="WebDriverExtensions.LoadJQuery method" Url="html/ff3f4e75-b54b-113d-85ac-184212808d7e.htm" />
+  <HelpKINode Title="WebDriverExtensions.LoadSizzle method" Url="html/72871a3b-7f4c-9eea-38c7-e9424c73a1ba.htm" />
   <HelpKINode Title="XPath method" Url="html/9774e80e-f168-4b35-c1d0-254aa38c22fc.htm" />
 </HelpKI>
