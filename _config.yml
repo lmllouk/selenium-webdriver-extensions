@@ -1,4 +1,4 @@
 name: WebDriver Extensions
-subtitle: jQuery Selector Support for Selenium
+subtitle: jQuery/Sizzle Selector Support for Selenium
 link: https://github.com/RaYell/selenium-webdriver-extensions
 markdown: kramdown
