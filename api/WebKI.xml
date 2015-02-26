@@ -7,70 +7,70 @@
   <HelpKINode Title="BaseSelector property" Url="html/1f446474-f1cb-197e-267c-7c9b7ba2cbca.htm" />
   <HelpKINode Title="By class">
     <HelpKINode Title="By Class" Url="html/25a18c99-216b-5187-f8ee-995042c7845b.htm" />
-    <HelpKINode Title="By Class" Url="html/f6206a4b-320f-d280-3d59-5071be48395d.htm" />
-    <HelpKINode Title="By Class" Url="html/ceae1e20-427c-6598-7767-2ce7308cf160.htm" />
     <HelpKINode Title="By Class" Url="html/731ada8c-3d56-c96e-e9f1-5c149f5296cd.htm" />
+    <HelpKINode Title="By Class" Url="html/ceae1e20-427c-6598-7767-2ce7308cf160.htm" />
+    <HelpKINode Title="By Class" Url="html/f6206a4b-320f-d280-3d59-5071be48395d.htm" />
     <HelpKINode Title="about By class" Url="html/25a18c99-216b-5187-f8ee-995042c7845b.htm" />
     <HelpKINode Title="about By class" Url="html/731ada8c-3d56-c96e-e9f1-5c149f5296cd.htm" />
     <HelpKINode Title="about By class" Url="html/ceae1e20-427c-6598-7767-2ce7308cf160.htm" />
     <HelpKINode Title="about By class" Url="html/f6206a4b-320f-d280-3d59-5071be48395d.htm" />
-    <HelpKINode Title="constructor" Url="html/a32040d1-583e-2fa0-abeb-e99cefaa9e74.htm" />
-    <HelpKINode Title="constructor" Url="html/bc7ef994-8f72-ed8b-f583-fd6766154e71.htm" />
     <HelpKINode Title="constructor" Url="html/98ae05d4-d7e2-3f08-273e-a7770af2690a.htm" />
+    <HelpKINode Title="constructor" Url="html/bc7ef994-8f72-ed8b-f583-fd6766154e71.htm" />
+    <HelpKINode Title="constructor" Url="html/a32040d1-583e-2fa0-abeb-e99cefaa9e74.htm" />
     <HelpKINode Title="constructor" Url="html/fec0a312-f8e8-4288-5ce4-cf6364c6ba78.htm" />
-    <HelpKINode Title="methods" Url="html/70998737-d0bc-e13d-04de-ead5084a9054.htm" />
+    <HelpKINode Title="methods" Url="html/71676599-86ff-7c16-d333-b9d761a41092.htm" />
     <HelpKINode Title="methods" Url="html/6c7ef480-2523-c3f4-d196-0ec0849099bf.htm" />
     <HelpKINode Title="methods" Url="html/8e0e21b0-caa7-72b8-9a80-a0e6906ffd03.htm" />
-    <HelpKINode Title="methods" Url="html/71676599-86ff-7c16-d333-b9d761a41092.htm" />
+    <HelpKINode Title="methods" Url="html/70998737-d0bc-e13d-04de-ead5084a9054.htm" />
     <HelpKINode Title="properties" Url="html/9bc4fbe0-fa1a-3953-9fdc-05e25049a133.htm" />
-    <HelpKINode Title="properties" Url="html/d8c3ace0-ff05-ebf1-9a0f-443369174c97.htm" />
     <HelpKINode Title="properties" Url="html/73bb4da6-ee05-c26b-25fc-4e827162a292.htm" />
     <HelpKINode Title="properties" Url="html/a8d9aba6-98ec-a0fd-c147-1ae1b89647dd.htm" />
+    <HelpKINode Title="properties" Url="html/d8c3ace0-ff05-ebf1-9a0f-443369174c97.htm" />
   </HelpKINode>
   <HelpKINode Title="By.By constructor">
-    <HelpKINode Title="By Constructor " Url="html/bc7ef994-8f72-ed8b-f583-fd6766154e71.htm" />
     <HelpKINode Title="By Constructor " Url="html/98ae05d4-d7e2-3f08-273e-a7770af2690a.htm" />
     <HelpKINode Title="By Constructor " Url="html/fec0a312-f8e8-4288-5ce4-cf6364c6ba78.htm" />
+    <HelpKINode Title="By Constructor " Url="html/bc7ef994-8f72-ed8b-f583-fd6766154e71.htm" />
     <HelpKINode Title="By Constructor " Url="html/a32040d1-583e-2fa0-abeb-e99cefaa9e74.htm" />
   </HelpKINode>
   <HelpKINode Title="By.ClassName method">
     <HelpKINode Title="By.ClassName Method " Url="html/8c5b8be1-1c63-00ef-eee9-348d9e1b3706.htm" />
-    <HelpKINode Title="By.ClassName Method " Url="html/c8845ea7-1de0-9333-c04a-da3a02bb43c8.htm" />
     <HelpKINode Title="By.ClassName Method " Url="html/8e55946a-f7c0-2c4a-cbbc-a4d22db82f83.htm" />
     <HelpKINode Title="By.ClassName Method " Url="html/8e6cc025-c7cf-397a-997f-311bd9c3856e.htm" />
+    <HelpKINode Title="By.ClassName Method " Url="html/c8845ea7-1de0-9333-c04a-da3a02bb43c8.htm" />
   </HelpKINode>
   <HelpKINode Title="By.CssSelector method">
-    <HelpKINode Title="By.CssSelector Method " Url="html/e0664dd2-1cc4-aae9-a67b-164deff6d418.htm" />
     <HelpKINode Title="By.CssSelector Method " Url="html/19ccb87c-8dcf-4302-cb6b-d4aa6486e0a0.htm" />
-    <HelpKINode Title="By.CssSelector Method " Url="html/07ab0a5a-95c9-4ffb-0738-fdef12b26e15.htm" />
     <HelpKINode Title="By.CssSelector Method " Url="html/1234aa23-c108-cb4c-e096-d05b136bfb47.htm" />
+    <HelpKINode Title="By.CssSelector Method " Url="html/07ab0a5a-95c9-4ffb-0738-fdef12b26e15.htm" />
+    <HelpKINode Title="By.CssSelector Method " Url="html/e0664dd2-1cc4-aae9-a67b-164deff6d418.htm" />
   </HelpKINode>
   <HelpKINode Title="By.Id method">
-    <HelpKINode Title="By.Id Method " Url="html/9ac34665-15f8-c862-afab-b846a2b45588.htm" />
     <HelpKINode Title="By.Id Method " Url="html/09cf24bd-40ae-e754-989e-ac08807f3bcc.htm" />
+    <HelpKINode Title="By.Id Method " Url="html/9ac34665-15f8-c862-afab-b846a2b45588.htm" />
     <HelpKINode Title="By.Id Method " Url="html/5fa8c175-da57-062d-d0e6-ac80a4dfdd70.htm" />
     <HelpKINode Title="By.Id Method " Url="html/60c1381d-4661-ab77-b6a9-9ea4e72e14f4.htm" />
   </HelpKINode>
   <HelpKINode Title="By.JQuerySelector method">
-    <HelpKINode Title="By.JQuerySelector Method " Url="html/44222d9b-99f8-4912-3d91-11618cb790c9.htm" />
     <HelpKINode Title="By.JQuerySelector Method " Url="html/4a7dff59-8ab6-10dc-97cc-74f62b177174.htm" />
+    <HelpKINode Title="By.JQuerySelector Method " Url="html/44222d9b-99f8-4912-3d91-11618cb790c9.htm" />
   </HelpKINode>
   <HelpKINode Title="By.LinkText method">
-    <HelpKINode Title="By.LinkText Method " Url="html/55df0643-f0be-6d20-4e8b-e60d975421cd.htm" />
     <HelpKINode Title="By.LinkText Method " Url="html/191a70ae-50a3-4bf7-37ab-285b561897ec.htm" />
+    <HelpKINode Title="By.LinkText Method " Url="html/55df0643-f0be-6d20-4e8b-e60d975421cd.htm" />
     <HelpKINode Title="By.LinkText Method " Url="html/150aa0e9-eff0-d4aa-9e5c-2f91bd0fc2d8.htm" />
     <HelpKINode Title="By.LinkText Method " Url="html/214307a3-45a2-981a-5098-087b97742ecc.htm" />
   </HelpKINode>
   <HelpKINode Title="By.Name method">
-    <HelpKINode Title="By.Name Method " Url="html/4c4f2775-02cf-4543-b5ff-f2153998f7e1.htm" />
     <HelpKINode Title="By.Name Method " Url="html/4427017c-e8e2-10c2-bab8-cc9f41d25968.htm" />
     <HelpKINode Title="By.Name Method " Url="html/57f7ce6a-95cf-31fc-38b6-91422833e320.htm" />
+    <HelpKINode Title="By.Name Method " Url="html/4c4f2775-02cf-4543-b5ff-f2153998f7e1.htm" />
     <HelpKINode Title="By.Name Method " Url="html/1ec633a1-759a-fc60-a422-b26aade4ec29.htm" />
   </HelpKINode>
   <HelpKINode Title="By.PartialLinkText method">
-    <HelpKINode Title="By.PartialLinkText Method " Url="html/59a8a5f1-a352-9d56-dfb6-fe24a7390f03.htm" />
     <HelpKINode Title="By.PartialLinkText Method " Url="html/25c28f6f-ac54-4421-88f4-79eaba29de01.htm" />
     <HelpKINode Title="By.PartialLinkText Method " Url="html/93bed4b2-0893-9024-0efb-78aa4545012f.htm" />
+    <HelpKINode Title="By.PartialLinkText Method " Url="html/59a8a5f1-a352-9d56-dfb6-fe24a7390f03.htm" />
     <HelpKINode Title="By.PartialLinkText Method " Url="html/b987df82-224b-3f7e-c321-b6fe10f6be2e.htm" />
   </HelpKINode>
   <HelpKINode Title="By.QuerySelector method">
@@ -82,16 +82,16 @@
     <HelpKINode Title="By.SizzleSelector Method " Url="html/1e7ddd7c-2a5e-61fa-8c8e-71476abf6d8d.htm" />
   </HelpKINode>
   <HelpKINode Title="By.TagName method">
-    <HelpKINode Title="By.TagName Method " Url="html/6f229127-efd3-97ad-1108-9d19cb476961.htm" />
-    <HelpKINode Title="By.TagName Method " Url="html/455af6b3-b12b-6b77-0a1a-b576c077befe.htm" />
     <HelpKINode Title="By.TagName Method " Url="html/2ec7d2b3-ec59-2141-0bbe-0d37de770f7f.htm" />
+    <HelpKINode Title="By.TagName Method " Url="html/6f229127-efd3-97ad-1108-9d19cb476961.htm" />
     <HelpKINode Title="By.TagName Method " Url="html/31dee343-35d2-25a2-c96b-1818b424c462.htm" />
+    <HelpKINode Title="By.TagName Method " Url="html/455af6b3-b12b-6b77-0a1a-b576c077befe.htm" />
   </HelpKINode>
   <HelpKINode Title="By.XPath method">
-    <HelpKINode Title="By.XPath Method " Url="html/70d0c1f8-ab39-e4d7-eb9f-c54d12b56e2a.htm" />
-    <HelpKINode Title="By.XPath Method " Url="html/9774e80e-f168-4b35-c1d0-254aa38c22fc.htm" />
-    <HelpKINode Title="By.XPath Method " Url="html/375eb4d5-2e3a-5022-2d14-76f476247115.htm" />
     <HelpKINode Title="By.XPath Method " Url="html/6d11e877-ad96-0d53-c538-141540d75c63.htm" />
+    <HelpKINode Title="By.XPath Method " Url="html/375eb4d5-2e3a-5022-2d14-76f476247115.htm" />
+    <HelpKINode Title="By.XPath Method " Url="html/9774e80e-f168-4b35-c1d0-254aa38c22fc.htm" />
+    <HelpKINode Title="By.XPath Method " Url="html/70d0c1f8-ab39-e4d7-eb9f-c54d12b56e2a.htm" />
   </HelpKINode>
   <HelpKINode Title="CheckQuerySelectorSupport method" Url="html/ee436ba2-375c-8b4b-9cf9-7728b4278afd.htm" />
   <HelpKINode Title="CheckScript property">
@@ -103,8 +103,8 @@
   <HelpKINode Title="CheckSelectorPrerequisites method" Url="html/ff6cfa9b-408c-f808-bdd8-20e57410b05d.htm" />
   <HelpKINode Title="Children method" Url="html/530ff4e0-a94f-57dd-3f83-12acd3a57e72.htm" />
   <HelpKINode Title="ClassName method">
-    <HelpKINode Title="By.ClassName Method " Url="html/8c5b8be1-1c63-00ef-eee9-348d9e1b3706.htm" />
     <HelpKINode Title="By.ClassName Method " Url="html/8e55946a-f7c0-2c4a-cbbc-a4d22db82f83.htm" />
+    <HelpKINode Title="By.ClassName Method " Url="html/8c5b8be1-1c63-00ef-eee9-348d9e1b3706.htm" />
     <HelpKINode Title="By.ClassName Method " Url="html/c8845ea7-1de0-9333-c04a-da3a02bb43c8.htm" />
     <HelpKINode Title="By.ClassName Method " Url="html/8e6cc025-c7cf-397a-997f-311bd9c3856e.htm" />
   </HelpKINode>
@@ -115,10 +115,10 @@
     <HelpKINode Title="SizzleSelector.Context Property " Url="html/53a8b079-3735-0527-b7ab-59ec65224437.htm" />
   </HelpKINode>
   <HelpKINode Title="CssSelector method">
-    <HelpKINode Title="By.CssSelector Method " Url="html/1234aa23-c108-cb4c-e096-d05b136bfb47.htm" />
     <HelpKINode Title="By.CssSelector Method " Url="html/e0664dd2-1cc4-aae9-a67b-164deff6d418.htm" />
     <HelpKINode Title="By.CssSelector Method " Url="html/07ab0a5a-95c9-4ffb-0738-fdef12b26e15.htm" />
     <HelpKINode Title="By.CssSelector Method " Url="html/19ccb87c-8dcf-4302-cb6b-d4aa6486e0a0.htm" />
+    <HelpKINode Title="By.CssSelector Method " Url="html/1234aa23-c108-cb4c-e096-d05b136bfb47.htm" />
   </HelpKINode>
   <HelpKINode Title="End method" Url="html/1a5f098a-3eaa-2e09-42aa-ab1e2d851837.htm" />
   <HelpKINode Title="Eq method" Url="html/06997d4a-4c4d-3a6c-44b4-5cfd31c71624.htm" />
@@ -141,13 +141,13 @@
   <HelpKINode Title="FindCss method" Url="html/da341712-5185-3a6b-e058-8434ea210c5a.htm" />
   <HelpKINode Title="FindData method" Url="html/38854908-d80d-0b6e-f3ba-27bcae966984.htm" />
   <HelpKINode Title="FindElement method">
+    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/b3319c82-b3c7-f0d8-e141-1f4948b43f9e.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/eaab6a01-d478-a930-b6ec-c0545e09f3d1.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/3fd9bc1e-b6ac-0281-468b-7558b273b172.htm" />
-    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/b3319c82-b3c7-f0d8-e141-1f4948b43f9e.htm" />
   </HelpKINode>
   <HelpKINode Title="FindElements method">
-    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/d6f1678d-820c-83d8-b77a-2a7d04646911.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/674b752a-f090-2b3c-6d40-2fb43930ff75.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/d6f1678d-820c-83d8-b77a-2a7d04646911.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/d2a6a141-b890-8356-f238-5b46f3c0f0e6.htm" />
   </HelpKINode>
   <HelpKINode Title="FindHeight method" Url="html/09621c41-4aa9-9c6b-745a-69b1dc900dfd.htm" />
@@ -170,10 +170,10 @@
   <HelpKINode Title="GetHashCode method" Url="html/35df2846-ed18-2cf0-861c-8ad4e200a022.htm" />
   <HelpKINode Title="Has method" Url="html/8bd7eb46-b936-7c39-2863-60e542c510c0.htm" />
   <HelpKINode Title="Id method">
-    <HelpKINode Title="By.Id Method " Url="html/60c1381d-4661-ab77-b6a9-9ea4e72e14f4.htm" />
-    <HelpKINode Title="By.Id Method " Url="html/09cf24bd-40ae-e754-989e-ac08807f3bcc.htm" />
     <HelpKINode Title="By.Id Method " Url="html/5fa8c175-da57-062d-d0e6-ac80a4dfdd70.htm" />
+    <HelpKINode Title="By.Id Method " Url="html/60c1381d-4661-ab77-b6a9-9ea4e72e14f4.htm" />
     <HelpKINode Title="By.Id Method " Url="html/9ac34665-15f8-c862-afab-b846a2b45588.htm" />
+    <HelpKINode Title="By.Id Method " Url="html/09cf24bd-40ae-e754-989e-ac08807f3bcc.htm" />
   </HelpKINode>
   <HelpKINode Title="IExternalLibraryLoader interface">
     <HelpKINode Title="IExternalLibraryLoader Interface" Url="html/a3ed4d16-766e-a76c-3123-da1b7882ab66.htm" />
@@ -205,8 +205,8 @@
     <HelpKINode Title="properties" Url="html/f8072e80-6241-ac60-9db9-af806fc727f1.htm" />
   </HelpKINode>
   <HelpKINode Title="JQuerySelector method">
-    <HelpKINode Title="By.JQuerySelector Method " Url="html/44222d9b-99f8-4912-3d91-11618cb790c9.htm" />
     <HelpKINode Title="By.JQuerySelector Method " Url="html/4a7dff59-8ab6-10dc-97cc-74f62b177174.htm" />
+    <HelpKINode Title="By.JQuerySelector Method " Url="html/44222d9b-99f8-4912-3d91-11618cb790c9.htm" />
   </HelpKINode>
   <HelpKINode Title="JQuerySelector.Add method" Url="html/af547e4d-36a9-279a-e16f-7a75efdc5957.htm" />
   <HelpKINode Title="JQuerySelector.AddBack method" Url="html/636a2c23-2ebc-9be0-d192-2597e4b5ff45.htm" />
@@ -252,8 +252,8 @@
   <HelpKINode Title="LinkText method">
     <HelpKINode Title="By.LinkText Method " Url="html/55df0643-f0be-6d20-4e8b-e60d975421cd.htm" />
     <HelpKINode Title="By.LinkText Method " Url="html/150aa0e9-eff0-d4aa-9e5c-2f91bd0fc2d8.htm" />
-    <HelpKINode Title="By.LinkText Method " Url="html/191a70ae-50a3-4bf7-37ab-285b561897ec.htm" />
     <HelpKINode Title="By.LinkText Method " Url="html/214307a3-45a2-981a-5098-087b97742ecc.htm" />
+    <HelpKINode Title="By.LinkText Method " Url="html/191a70ae-50a3-4bf7-37ab-285b561897ec.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadExternalLibrary method" Url="html/f7cbb49b-20e8-27e9-d2f2-11fa248bceae.htm" />
   <HelpKINode Title="LoadJQuery method" Url="html/de13922b-09f3-a3a8-b851-67d6c6f51c2b.htm" />
@@ -265,10 +265,10 @@
   </HelpKINode>
   <HelpKINode Title="LoadSizzle method" Url="html/ffe9055c-2ba7-c21b-b274-152ea595a38a.htm" />
   <HelpKINode Title="Name method">
-    <HelpKINode Title="By.Name Method " Url="html/57f7ce6a-95cf-31fc-38b6-91422833e320.htm" />
-    <HelpKINode Title="By.Name Method " Url="html/1ec633a1-759a-fc60-a422-b26aade4ec29.htm" />
     <HelpKINode Title="By.Name Method " Url="html/4c4f2775-02cf-4543-b5ff-f2153998f7e1.htm" />
+    <HelpKINode Title="By.Name Method " Url="html/57f7ce6a-95cf-31fc-38b6-91422833e320.htm" />
     <HelpKINode Title="By.Name Method " Url="html/4427017c-e8e2-10c2-bab8-cc9f41d25968.htm" />
+    <HelpKINode Title="By.Name Method " Url="html/1ec633a1-759a-fc60-a422-b26aade4ec29.htm" />
   </HelpKINode>
   <HelpKINode Title="Next method" Url="html/ae3be83c-3d04-ce59-646c-783ba9f42acb.htm" />
   <HelpKINode Title="NextAll method" Url="html/d87eb67a-5a3a-eee5-2aef-1365f473338a.htm" />
@@ -288,10 +288,10 @@
   <HelpKINode Title="ParseUtil.ParseResult(Of T) method" Url="html/16c4e810-a082-89da-7f8a-cde3381c1445.htm" />
   <HelpKINode Title="ParseUtil.ParseResult&lt;T&gt; method" Url="html/16c4e810-a082-89da-7f8a-cde3381c1445.htm" />
   <HelpKINode Title="PartialLinkText method">
-    <HelpKINode Title="By.PartialLinkText Method " Url="html/25c28f6f-ac54-4421-88f4-79eaba29de01.htm" />
     <HelpKINode Title="By.PartialLinkText Method " Url="html/93bed4b2-0893-9024-0efb-78aa4545012f.htm" />
-    <HelpKINode Title="By.PartialLinkText Method " Url="html/59a8a5f1-a352-9d56-dfb6-fe24a7390f03.htm" />
     <HelpKINode Title="By.PartialLinkText Method " Url="html/b987df82-224b-3f7e-c321-b6fe10f6be2e.htm" />
+    <HelpKINode Title="By.PartialLinkText Method " Url="html/25c28f6f-ac54-4421-88f4-79eaba29de01.htm" />
+    <HelpKINode Title="By.PartialLinkText Method " Url="html/59a8a5f1-a352-9d56-dfb6-fe24a7390f03.htm" />
   </HelpKINode>
   <HelpKINode Title="Position structure">
     <HelpKINode Title="Position Structure" Url="html/9b93f150-b971-d95a-a04c-ebb08eb2fa5d.htm" />
@@ -319,8 +319,8 @@
     <HelpKINode Title="properties" Url="html/e863bd27-e743-95e5-bfd4-6e15a657dfb9.htm" />
   </HelpKINode>
   <HelpKINode Title="QuerySelector method">
-    <HelpKINode Title="By.QuerySelector Method " Url="html/a71c4f14-0a23-09f2-29ad-da8b9134edae.htm" />
     <HelpKINode Title="By.QuerySelector Method " Url="html/5c995414-0fef-accf-2ef2-c04fd1c09131.htm" />
+    <HelpKINode Title="By.QuerySelector Method " Url="html/a71c4f14-0a23-09f2-29ad-da8b9134edae.htm" />
   </HelpKINode>
   <HelpKINode Title="QuerySelector.BaseElement property" Url="html/a23d2386-4163-875b-c883-7452121336e5.htm" />
   <HelpKINode Title="QuerySelector.BaseSelector property" Url="html/1f446474-f1cb-197e-267c-7c9b7ba2cbca.htm" />
@@ -406,10 +406,10 @@
   <HelpKINode Title="SizzleSelector.ToString method" Url="html/b8864e51-f2c8-9660-54db-7bb23334e13a.htm" />
   <HelpKINode Title="Slice method" Url="html/874ed906-c1cb-7300-0fd8-fc09ccd7f413.htm" />
   <HelpKINode Title="TagName method">
-    <HelpKINode Title="By.TagName Method " Url="html/455af6b3-b12b-6b77-0a1a-b576c077befe.htm" />
-    <HelpKINode Title="By.TagName Method " Url="html/2ec7d2b3-ec59-2141-0bbe-0d37de770f7f.htm" />
     <HelpKINode Title="By.TagName Method " Url="html/31dee343-35d2-25a2-c96b-1818b424c462.htm" />
+    <HelpKINode Title="By.TagName Method " Url="html/455af6b3-b12b-6b77-0a1a-b576c077befe.htm" />
     <HelpKINode Title="By.TagName Method " Url="html/6f229127-efd3-97ad-1108-9d19cb476961.htm" />
+    <HelpKINode Title="By.TagName Method " Url="html/2ec7d2b3-ec59-2141-0bbe-0d37de770f7f.htm" />
   </HelpKINode>
   <HelpKINode Title="Top property" Url="html/8feeccdb-0ebd-e55f-6965-7b8eb9da48c2.htm" />
   <HelpKINode Title="ToString method">
@@ -427,17 +427,17 @@
   </HelpKINode>
   <HelpKINode Title="TypeArgumentException.TypeArgumentException constructor" Url="html/85641625-77af-1b7d-9438-63d56be3d3cb.htm" />
   <HelpKINode Title="WebDriverExtensions class">
-    <HelpKINode Title="WebDriverExtensions Class" Url="html/93e766d4-bb46-4b12-6184-3ce494672e00.htm" />
-    <HelpKINode Title="WebDriverExtensions Class" Url="html/3749644b-86f7-993d-b021-7649846cadc3.htm" />
-    <HelpKINode Title="WebDriverExtensions Class" Url="html/009374eb-8058-9e13-08ce-f64d7b807005.htm" />
     <HelpKINode Title="WebDriverExtensions Class" Url="html/0e01a922-8418-aac2-6461-f40a3aaaf8c2.htm" />
+    <HelpKINode Title="WebDriverExtensions Class" Url="html/009374eb-8058-9e13-08ce-f64d7b807005.htm" />
+    <HelpKINode Title="WebDriverExtensions Class" Url="html/3749644b-86f7-993d-b021-7649846cadc3.htm" />
+    <HelpKINode Title="WebDriverExtensions Class" Url="html/93e766d4-bb46-4b12-6184-3ce494672e00.htm" />
     <HelpKINode Title="about WebDriverExtensions class" Url="html/3749644b-86f7-993d-b021-7649846cadc3.htm" />
+    <HelpKINode Title="about WebDriverExtensions class" Url="html/009374eb-8058-9e13-08ce-f64d7b807005.htm" />
     <HelpKINode Title="about WebDriverExtensions class" Url="html/93e766d4-bb46-4b12-6184-3ce494672e00.htm" />
     <HelpKINode Title="about WebDriverExtensions class" Url="html/0e01a922-8418-aac2-6461-f40a3aaaf8c2.htm" />
-    <HelpKINode Title="about WebDriverExtensions class" Url="html/009374eb-8058-9e13-08ce-f64d7b807005.htm" />
-    <HelpKINode Title="methods" Url="html/f1bd2ced-2f55-9ba6-7e5f-36693f5b8de8.htm" />
-    <HelpKINode Title="methods" Url="html/2669432e-b714-70f3-ae77-5318799e3810.htm" />
     <HelpKINode Title="methods" Url="html/03803954-6763-f08d-b4c7-0ee0d033d9f3.htm" />
+    <HelpKINode Title="methods" Url="html/2669432e-b714-70f3-ae77-5318799e3810.htm" />
+    <HelpKINode Title="methods" Url="html/f1bd2ced-2f55-9ba6-7e5f-36693f5b8de8.htm" />
     <HelpKINode Title="methods" Url="html/ea347355-44fb-aad6-fdef-a2ec640d8719.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.CheckQuerySelectorSupport method" Url="html/ee436ba2-375c-8b4b-9cf9-7728b4278afd.htm" />
@@ -448,14 +448,14 @@
   <HelpKINode Title="WebDriverExtensions.FindCss method" Url="html/da341712-5185-3a6b-e058-8434ea210c5a.htm" />
   <HelpKINode Title="WebDriverExtensions.FindData method" Url="html/38854908-d80d-0b6e-f3ba-27bcae966984.htm" />
   <HelpKINode Title="WebDriverExtensions.FindElement method">
-    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/3fd9bc1e-b6ac-0281-468b-7558b273b172.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/eaab6a01-d478-a930-b6ec-c0545e09f3d1.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/3fd9bc1e-b6ac-0281-468b-7558b273b172.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/b3319c82-b3c7-f0d8-e141-1f4948b43f9e.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.FindElements method">
-    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/d2a6a141-b890-8356-f238-5b46f3c0f0e6.htm" />
-    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/674b752a-f090-2b3c-6d40-2fb43930ff75.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/d6f1678d-820c-83d8-b77a-2a7d04646911.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/674b752a-f090-2b3c-6d40-2fb43930ff75.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/d2a6a141-b890-8356-f238-5b46f3c0f0e6.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.FindHeight method" Url="html/09621c41-4aa9-9c6b-745a-69b1dc900dfd.htm" />
   <HelpKINode Title="WebDriverExtensions.FindHtml method" Url="html/28f21506-3404-f460-6378-4e2546e65950.htm" />
@@ -477,9 +477,9 @@
   <HelpKINode Title="WebDriverExtensions.LoadJQuery method" Url="html/de13922b-09f3-a3a8-b851-67d6c6f51c2b.htm" />
   <HelpKINode Title="WebDriverExtensions.LoadSizzle method" Url="html/ffe9055c-2ba7-c21b-b274-152ea595a38a.htm" />
   <HelpKINode Title="XPath method">
+    <HelpKINode Title="By.XPath Method " Url="html/70d0c1f8-ab39-e4d7-eb9f-c54d12b56e2a.htm" />
     <HelpKINode Title="By.XPath Method " Url="html/375eb4d5-2e3a-5022-2d14-76f476247115.htm" />
     <HelpKINode Title="By.XPath Method " Url="html/6d11e877-ad96-0d53-c538-141540d75c63.htm" />
-    <HelpKINode Title="By.XPath Method " Url="html/70d0c1f8-ab39-e4d7-eb9f-c54d12b56e2a.htm" />
     <HelpKINode Title="By.XPath Method " Url="html/9774e80e-f168-4b35-c1d0-254aa38c22fc.htm" />
   </HelpKINode>
 </HelpKI>
