@@ -1,0 +1,218 @@
+# master branch configuration
+-
+  branches:
+    only:
+      - master
+      
+  skip_tags: true
+  skip_commits:
+    message: /Update*\.md/
+
+  version: 1.2.{build}
+  configuration: Release
+    
+  install:  
+    - cmd: SET PATH=%APPVEYOR_BUILD_FOLDER%\packages\PhantomJS.2.0.0\tools\phantomjs;%PATH%
+  
+  assembly_info:
+    patch: true
+    file: AssemblyInfo.*
+    assembly_version: "1.2"
+    assembly_file_version: "{version}"
+    assembly_informational_version: "{version}"
+    
+  nuget:
+    account_feed: true
+    project_feed: true
+    disable_publish_on_pr: true
+  
+  environment:
+    SHFBROOT: '%APPVEYOR_BUILD_FOLDER%\packages\SHFB.2014.5.31\tools\Sandcastle Help File Builder'
+    COVERALLS_REPO_TOKEN:
+      secure: HujWqUkCgrw2hC1t45W2wPYqn8+/JC7VGJq/vawDBShdzZ3GxGpuQjj/ObK0665W
+    GH_ACCESS_TOKEN:
+      secure: r+IxpBcxWvxwGdiNvsHFEWa0wa8WPzw3uRi+1/ObwPoGS16bzG9FObtJIsFdmj0L
+    OPENCOVER_ROOT: '%APPVEYOR_BUILD_FOLDER%\packages\OpenCover.4.5.3723'
+    COVERALLS_ROOT: '%APPVEYOR_BUILD_FOLDER%\packages\coveralls.io.1.2.2\tools'
+
+  before_build:
+    - nuget restore
+  
+  build:
+    project: Selenium.WebDriver.Extensions.sln
+    
+  after_build:
+    - msbuild Selenium.WebDriver.Extensions.sln /property:Configuration=Release-Net40 /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+    - msbuild Selenium.WebDriver.Extensions.sln /property:Configuration=Release-Net35 /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+    - msbuild Selenium.WebDriver.Extensions.sln /property:Configuration=Docs /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+
+  test_script:
+    - nunit-console.exe /noshadow /framework:net-4.0 test\Selenium.WebDriver.Extensions.Core.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.Core.Tests.dll test\Selenium.WebDriver.Extensions.IntegrationTests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.IntegrationTests.dll test\Selenium.WebDriver.Extensions.JQuery.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.JQuery.Tests.dll test\Selenium.WebDriver.Extensions.Sizzle.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.Sizzle.Tests.dll test\Selenium.WebDriver.Extensions.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.Tests.dll
+  
+  after_test:
+    - '%OPENCOVER_ROOT%\OpenCover.Console.exe -register:user -target:"nunit-console.exe" -targetargs:"/noshadow /framework:net-4.0 test/Selenium.WebDriver.Extensions.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.Tests.dll test/Selenium.WebDriver.Extensions.JQuery.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.JQuery.Tests.dll test/Selenium.WebDriver.Extensions.Sizzle.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.Sizzle.Tests.dll test/Selenium.WebDriver.Extensions.Core.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.Core.Tests.dll" -output:coverage.xml -filter:"+[*]* -[*]*Exception* -[*.Tests]*"'
+    - '%COVERALLS_ROOT%\coveralls.net.exe --opencover coverage.xml'
+  
+  before_deploy:
+    - nuget pack src\Selenium.WebDriver.Extensions.Core\Selenium.WebDriver.Extensions.Core.nuspec -Version "%APPVEYOR_BUILD_VERSION%"
+    - nuget pack src\Selenium.WebDriver.Extensions.JQuery\Selenium.WebDriver.Extensions.JQuery.nuspec -Version "%APPVEYOR_BUILD_VERSION%"
+    - nuget pack src\Selenium.WebDriver.Extensions.Sizzle\Selenium.WebDriver.Extensions.Sizzle.nuspec -Version "%APPVEYOR_BUILD_VERSION%"
+    - nuget pack src\Selenium.WebDriver.Extensions\Selenium.WebDriver.Extensions.nuspec -Version "%APPVEYOR_BUILD_VERSION%"
+    - ps: Get-ChildItem .\*.nupkg | % { Push-AppveyorArtifact $_.FullName -FileName $_.Name }
+
+  deploy:
+    - provider: NuGet
+      api_key:
+        secure: kvwvA4clT64FDfanLoNcTLWpQlMGQ311zUfwAEljDwHhjtmFCy4O+gSZ2YrGTUYb
+    - provider: GitHub
+      release: $(APPVEYOR_BUILD_VERSION)
+      artifact: /.*\.nupkg/
+      auth_token:
+        secure: r+IxpBcxWvxwGdiNvsHFEWa0wa8WPzw3uRi+1/ObwPoGS16bzG9FObtJIsFdmj0L
+        
+  on_success:
+    - git clone -q -b gh-pages https://github.com/RaYell/selenium-webdriver-extensions.git docs\gh-pages
+    - cd docs\gh-pages
+    - git config --global credential.helper store
+    - git config user.email "agent@appveyor.com"
+    - git config user.name "AppVeyor Agent"
+    - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:GH_ACCESS_TOKEN):x-oauth-basic@github.com`n"
+    - git rm -r api 
+    - xcopy ..\bin\Docs api /s /i
+    - git add api
+    - git commit -a -m "Documentation updated"
+    - git push
+    - cd ../..
+
+# develop, feature & bugfix branches
+-
+  branches:
+    only:
+      - develop
+      - /feature.*/
+      - /bugfix.*/
+      
+  skip_tags: true
+  skip_commits:
+    message: /Update*\.md/
+
+  version: 1.2.{build}
+  configuration: Release
+    
+  install:  
+    - cmd: SET PATH=%APPVEYOR_BUILD_FOLDER%\packages\PhantomJS.2.0.0\tools\phantomjs;%PATH%
+  
+  assembly_info:
+    patch: true
+    file: AssemblyInfo.*
+    assembly_version: "1.2"
+    assembly_file_version: "{version}"
+    assembly_informational_version: "{version}-dev"
+  
+  nuget:
+    account_feed: true
+    project_feed: true
+    disable_publish_on_pr: true
+  
+  environment:
+    SHFBROOT: '%APPVEYOR_BUILD_FOLDER%\packages\SHFB.2014.5.31\tools\Sandcastle Help File Builder'
+    COVERALLS_REPO_TOKEN:
+      secure: HujWqUkCgrw2hC1t45W2wPYqn8+/JC7VGJq/vawDBShdzZ3GxGpuQjj/ObK0665W
+    OPENCOVER_ROOT: '%APPVEYOR_BUILD_FOLDER%\packages\OpenCover.4.5.3723'
+    COVERALLS_ROOT: '%APPVEYOR_BUILD_FOLDER%\packages\coveralls.io.1.2.2\tools'
+
+  before_build:
+    - nuget restore
+  
+  build:
+    project: Selenium.WebDriver.Extensions.sln
+    
+  after_build:
+    - msbuild Selenium.WebDriver.Extensions.sln /property:Configuration=Release-Net40 /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+    - msbuild Selenium.WebDriver.Extensions.sln /property:Configuration=Release-Net35 /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+    - msbuild Selenium.WebDriver.Extensions.sln /property:Configuration=Docs /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+
+  test_script:
+    - nunit-console.exe /noshadow /framework:net-4.0 test\Selenium.WebDriver.Extensions.Core.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.Core.Tests.dll test\Selenium.WebDriver.Extensions.IntegrationTests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.IntegrationTests.dll test\Selenium.WebDriver.Extensions.JQuery.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.JQuery.Tests.dll test\Selenium.WebDriver.Extensions.Sizzle.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.Sizzle.Tests.dll test\Selenium.WebDriver.Extensions.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.Tests.dll
+  
+  after_test:
+    - '%OPENCOVER_ROOT%\OpenCover.Console.exe -register:user -target:"nunit-console.exe" -targetargs:"/noshadow /framework:net-4.0 test/Selenium.WebDriver.Extensions.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.Tests.dll test/Selenium.WebDriver.Extensions.JQuery.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.JQuery.Tests.dll test/Selenium.WebDriver.Extensions.Sizzle.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.Sizzle.Tests.dll test/Selenium.WebDriver.Extensions.Core.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.Core.Tests.dll" -output:coverage.xml -filter:"+[*]* -[*]*Exception* -[*.Tests]*"'
+    - '%COVERALLS_ROOT%\coveralls.net.exe --opencover coverage.xml'
+      
+  before_deploy:
+    - nuget pack src\Selenium.WebDriver.Extensions.Core\Selenium.WebDriver.Extensions.Core.nuspec -Version "%APPVEYOR_BUILD_VERSION%"
+    - nuget pack src\Selenium.WebDriver.Extensions.JQuery\Selenium.WebDriver.Extensions.JQuery.nuspec -Version "%APPVEYOR_BUILD_VERSION%-dev"
+    - nuget pack src\Selenium.WebDriver.Extensions.Sizzle\Selenium.WebDriver.Extensions.Sizzle.nuspec -Version "%APPVEYOR_BUILD_VERSION%-dev"
+    - nuget pack src\Selenium.WebDriver.Extensions\Selenium.WebDriver.Extensions.nuspec -Version "%APPVEYOR_BUILD_VERSION%-dev"
+    - ps: Get-ChildItem .\*.nupkg | % { Push-AppveyorArtifact $_.FullName -FileName $_.Name }
+
+# release branch configuration
+-
+  branches:
+    only:
+      - /release.*/
+      
+  skip_tags: true
+  skip_commits:
+    message: /Update*\.md/
+
+  version: 1.2.{build}
+  configuration: Release
+    
+  install:  
+    - cmd: SET PATH=%APPVEYOR_BUILD_FOLDER%\packages\PhantomJS.2.0.0\tools\phantomjs;%PATH%
+
+  assembly_info:
+    patch: true
+    file: AssemblyInfo.*
+    assembly_version: "1.2"
+    assembly_file_version: "{version}"
+    assembly_informational_version: "{version}-preview"
+  
+  nuget:
+    account_feed: true
+    project_feed: true
+    disable_publish_on_pr: true
+  
+  environment:
+    SHFBROOT: '%APPVEYOR_BUILD_FOLDER%\packages\SHFB.2014.5.31\tools\Sandcastle Help File Builder'
+    COVERALLS_REPO_TOKEN:
+      secure: HujWqUkCgrw2hC1t45W2wPYqn8+/JC7VGJq/vawDBShdzZ3GxGpuQjj/ObK0665W
+    OPENCOVER_ROOT: '%APPVEYOR_BUILD_FOLDER%\packages\OpenCover.4.5.3723'
+    COVERALLS_ROOT: '%APPVEYOR_BUILD_FOLDER%\packages\coveralls.io.1.2.2\tools'
+
+  before_build:
+    - nuget restore
+  
+  build:
+    project: Selenium.WebDriver.Extensions.sln
+    
+  after_build:
+    - msbuild Selenium.WebDriver.Extensions.sln /property:Configuration=Release-Net40 /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+    - msbuild Selenium.WebDriver.Extensions.sln /property:Configuration=Release-Net35 /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+    - msbuild Selenium.WebDriver.Extensions.sln /property:Configuration=Docs /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+
+  test_script:
+    - nunit-console.exe /noshadow /framework:net-4.0 test\Selenium.WebDriver.Extensions.Core.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.Core.Tests.dll test\Selenium.WebDriver.Extensions.IntegrationTests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.IntegrationTests.dll test\Selenium.WebDriver.Extensions.JQuery.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.JQuery.Tests.dll test\Selenium.WebDriver.Extensions.Sizzle.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.Sizzle.Tests.dll test\Selenium.WebDriver.Extensions.Tests\bin\%CONFIGURATION%\Selenium.WebDriver.Extensions.Tests.dll
+  
+  after_test:
+    - '%OPENCOVER_ROOT%\OpenCover.Console.exe -register:user -target:"nunit-console.exe" -targetargs:"/noshadow /framework:net-4.0 test/Selenium.WebDriver.Extensions.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.Tests.dll test/Selenium.WebDriver.Extensions.JQuery.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.JQuery.Tests.dll test/Selenium.WebDriver.Extensions.Sizzle.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.Sizzle.Tests.dll test/Selenium.WebDriver.Extensions.Core.Tests/bin/%CONFIGURATION%/Selenium.WebDriver.Extensions.Core.Tests.dll" -output:coverage.xml -filter:"+[*]* -[*]*Exception* -[*.Tests]*"'
+    - '%COVERALLS_ROOT%\coveralls.net.exe --opencover coverage.xml'
+    
+  before_deploy:
+    - nuget pack src\Selenium.WebDriver.Extensions.Core\Selenium.WebDriver.Extensions.Core.nuspec -Version "%APPVEYOR_BUILD_VERSION%"
+    - nuget pack src\Selenium.WebDriver.Extensions.JQuery\Selenium.WebDriver.Extensions.JQuery.nuspec -Version "%APPVEYOR_BUILD_VERSION%-preview"
+    - nuget pack src\Selenium.WebDriver.Extensions.Sizzle\Selenium.WebDriver.Extensions.Sizzle.nuspec -Version "%APPVEYOR_BUILD_VERSION%-preview"
+    - nuget pack src\Selenium.WebDriver.Extensions\Selenium.WebDriver.Extensions.nuspec -Version "%APPVEYOR_BUILD_VERSION%-preview"
+    - ps: Get-ChildItem .\*.nupkg | % { Push-AppveyorArtifact $_.FullName -FileName $_.Name }
+
+  deploy:
+    - provider: NuGet
+      api_key:
+        secure: kvwvA4clT64FDfanLoNcTLWpQlMGQ311zUfwAEljDwHhjtmFCy4O+gSZ2YrGTUYb
+    - provider: GitHub
+      release: $(APPVEYOR_BUILD_VERSION)-preview
+      artifact: /.*\.nupkg/
+      auth_token:
+        secure: r+IxpBcxWvxwGdiNvsHFEWa0wa8WPzw3uRi+1/ObwPoGS16bzG9FObtJIsFdmj0L
+      prerelease: true
