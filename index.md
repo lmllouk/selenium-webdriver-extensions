@@ -4,25 +4,38 @@ title: Selenium WebDriver Extensions | selenium-webdriver-extensions | RaYell's 
 ---
 
 # Description
-Extensions for Selenium WebDriver including jQuery and Sizzle selector support.
+Extensions for Selenium WebDriver.
 
 # Features
-Some of the features of this library are:
-
-* Generates jQuery and Sizzle selectors that can be used by Selenium WebDrivers to perform searches that CSS can't do
-* Allows jQuery and Sizzle selectors to be used even on sites that don't use jQuery or Sizzle as it can load the library before performing a first search
-* Very easy setup: install package with NuGet, include a namespace and start using it
-* Supports jQuery traversing methods for generation of complex selector chains
-* Supports jQuery and Sizzle context switching
-* CI with Appveyor
-* 100% code coverage with nUnit tests
-* Well documented code following strict StyleCop and FxCop rules.
+* Main
+ * Support for nested selectors
+ * Very easy setup: install packages with NuGet, include a namespace and start using it with your existing Selenium solution
+ * High quality ensured by continous integration setup with Appveyor, unit and integration testing and hight code coverage
+ * Well documented code following strict StyleCop and FxCop rules
+* jQuery support
+ * jQuery selectors support for Selenium WebDriver to perform DOM-element selections that CSS can't do
+ * jQuery auto-load on pages on sites that don't use jQuery
+ * Support for jQuery context switching
+ * Support for jQuery traversing methods for generation of complex selector chains
+ * Support for jQuery setter and event trigering methods
+* Sizzle support
+ * Sizzle selectors support for Selenium WebDriver to perform DOM-element selections that CSS can't do
+ * Sizzle auto-load on pages on sites that don't use Sizzle
+ * Support for Sizzle context switching
 
 # Installation
 Run the following command in Visual Studio Packet Manager Console.
 
 {% highlight powershell %}
 Install-Package Selenium.WebDriver.Extensions
+{% endhighlight %}
+
+This will install the full package containing jQuery, Sizzle and core selectors support. If you want to use only specific extensions you can do this by installing a specific package in Package Manager Console.
+
+{% highlight powershell %}
+Install-Package Selenium.WebDriver.Extensions.JQuery
+Install-Package Selenium.WebDriver.Extensions.Sizzle
+Install-Package Selenium.WebDriver.Extensions.Core
 {% endhighlight %}
 
 # Documentation
