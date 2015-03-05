@@ -55,7 +55,6 @@ using By = Selenium.WebDriver.Extensions.By;
 Invoke jQuery selectors on the WebDriver.
 
 {% highlight csharp %}
-var driver = new ChromeDriver();
 driver.FindElements(By.JQuerySelector("input:visible"))
 {% endhighlight %}
 
@@ -63,7 +62,6 @@ driver.FindElements(By.JQuerySelector("input:visible"))
 You can also chain jQuery traversing methods.
 
 {% highlight csharp %}
-var driver = new ChromeDriver();
 var selector = By.JQuerySelector("div.myclass").Parents(".someClass").NextAll();
 driver.FindElement(selector);
 {% endhighlight %}
@@ -72,7 +70,6 @@ driver.FindElement(selector);
 If the site that you are testing with Selenium does not include jQuery this extension will automatically load the latest version when you run `FindElement` or `FindElements` method. If you want you can choose to load a different version of jQuery.
 
 {% highlight csharp %}
-var driver = new ChromeDriver();
 driver.LoadJQuery("1.11.0");
 {% endhighlight %}
 
@@ -80,7 +77,6 @@ driver.LoadJQuery("1.11.0");
 When you create a jQuery selector using `By` helper class the resulting selector will use `jQuery` as library variable name. If you site is using a different variable name for this purpose you can pass this value as an optional parameter.
 
 {% highlight csharp %}
-var driver = new ChromeDriver();
 var selector = By.JQuerySelector("div", jQueryVariable: "myJQuery");
 {% endhighlight %}
 
@@ -88,17 +84,29 @@ var selector = By.JQuerySelector("div", jQueryVariable: "myJQuery");
 You can use one `JQuerySelector` instance as a context of another `JQuerySelector`.
 
 {% highlight csharp %}
-var driver = new ChromeDriver();
 var context = By.JQuerySelector("div.myClass");
 var selector = By.JQuerySelector("ol li", context);
 driver.FindElements(selector);
+{% endhighlight %}
+
+## jQuery helper methods
+You can have instant access to values of the getter jQuery methods.
+
+{% highlight csharp %}
+var value = driver.JQuery("input").Value();
+{% endhighlight %}
+
+You can also set the values and trigger events using the API.
+
+{% highlight csharp %}
+driver.JQuery("input").Value("new value");
+driver.JQuery("button:submit").Click();
 {% endhighlight %}
 
 ## Basic Sizzle example
 Invoke Sizzle selectors on the WebDriver.
 
 {% highlight csharp %}
-var driver = new ChromeDriver();
 driver.FindElements(By.SizzleSelector("input:visible"))
 {% endhighlight %}
 
@@ -106,7 +114,6 @@ driver.FindElements(By.SizzleSelector("input:visible"))
 If the site that you are testing with Selenium does not include Sizzle this extension will automatically load the latest version when you run `FindElement` or `FindElements` method. If you want you can choose to load a different version of jQuery.
 
 {% highlight csharp %}
-var driver = new ChromeDriver();
 driver.LoadSizzle("1.11.1");
 {% endhighlight %}
 
@@ -114,7 +121,6 @@ driver.LoadSizzle("1.11.1");
 You can use one `SizzleSelector` instance as a context of another `SizzleSelector`.
 
 {% highlight csharp %}
-var driver = new ChromeDriver();
 var context = By.SizzleSelector("div.myClass");
 var selector = By.SizzleSelector("ol li", context);
 driver.FindElements(selector);
