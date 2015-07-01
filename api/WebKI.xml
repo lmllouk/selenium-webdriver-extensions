@@ -11,76 +11,76 @@
   <HelpKINode Title="By class">
     <HelpKINode Title="By Class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_By.htm" />
     <HelpKINode Title="By Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_By.htm" />
-    <HelpKINode Title="By Class" Url="html/T_Selenium_WebDriver_Extensions_By.htm" />
     <HelpKINode Title="By Class" Url="html/T_Selenium_WebDriver_Extensions_Core_By.htm" />
-    <HelpKINode Title="about By class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_By.htm" />
-    <HelpKINode Title="about By class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_By.htm" />
+    <HelpKINode Title="By Class" Url="html/T_Selenium_WebDriver_Extensions_By.htm" />
     <HelpKINode Title="about By class" Url="html/T_Selenium_WebDriver_Extensions_Core_By.htm" />
+    <HelpKINode Title="about By class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_By.htm" />
     <HelpKINode Title="about By class" Url="html/T_Selenium_WebDriver_Extensions_By.htm" />
+    <HelpKINode Title="about By class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_By.htm" />
     <HelpKINode Title="constructor" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Selenium_WebDriver_Extensions_Core_By__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_Selenium_WebDriver_Extensions_JQuery_By__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_Selenium_WebDriver_Extensions_By__ctor.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Selenium_WebDriver_Extensions_Core_By__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_By.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_By.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_By.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Sizzle_By.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_By.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_By.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_By.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_By.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_By.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Sizzle_By.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_By.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_By.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_JQuery_By.htm" />
   </HelpKINode>
   <HelpKINode Title="By.By constructor">
-    <HelpKINode Title="By Constructor " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By__ctor.htm" />
-    <HelpKINode Title="By Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_By__ctor.htm" />
     <HelpKINode Title="By Constructor " Url="html/M_Selenium_WebDriver_Extensions_By__ctor.htm" />
+    <HelpKINode Title="By Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_By__ctor.htm" />
+    <HelpKINode Title="By Constructor " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By__ctor.htm" />
     <HelpKINode Title="By Constructor " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="By.ClassName method">
     <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_ClassName.htm" />
-    <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_ClassName.htm" />
-    <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_ClassName.htm" />
     <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_By_ClassName.htm" />
+    <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_ClassName.htm" />
+    <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_ClassName.htm" />
   </HelpKINode>
   <HelpKINode Title="By.CssSelector method">
     <HelpKINode Title="By.CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_By_CssSelector.htm" />
-    <HelpKINode Title="By.CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_CssSelector.htm" />
     <HelpKINode Title="By.CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_CssSelector.htm" />
+    <HelpKINode Title="By.CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_CssSelector.htm" />
     <HelpKINode Title="By.CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_CssSelector.htm" />
   </HelpKINode>
   <HelpKINode Title="By.Id method">
     <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_Id.htm" />
     <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_Id.htm" />
-    <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_Id.htm" />
     <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_By_Id.htm" />
+    <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_Id.htm" />
   </HelpKINode>
   <HelpKINode Title="By.JQuerySelector method">
     <HelpKINode Title="By.JQuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_By_JQuerySelector.htm" />
     <HelpKINode Title="By.JQuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_JQuerySelector.htm" />
   </HelpKINode>
   <HelpKINode Title="By.LinkText method">
-    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_LinkText.htm" />
-    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_LinkText.htm" />
-    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_LinkText.htm" />
     <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_LinkText.htm" />
+    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_LinkText.htm" />
+    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_LinkText.htm" />
+    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_LinkText.htm" />
   </HelpKINode>
   <HelpKINode Title="By.Name method">
-    <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_Name.htm" />
     <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_Name.htm" />
-    <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_Name.htm" />
+    <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_Name.htm" />
     <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_By_Name.htm" />
+    <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_Name.htm" />
   </HelpKINode>
   <HelpKINode Title="By.PartialLinkText method">
-    <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_PartialLinkText.htm" />
-    <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_PartialLinkText.htm" />
-    <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_PartialLinkText.htm" />
     <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_PartialLinkText.htm" />
+    <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_PartialLinkText.htm" />
+    <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_PartialLinkText.htm" />
+    <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_PartialLinkText.htm" />
   </HelpKINode>
   <HelpKINode Title="By.QuerySelector method">
-    <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_QuerySelector.htm" />
-    <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_QuerySelector.htm" />
     <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_QuerySelector.htm" />
+    <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_QuerySelector.htm" />
     <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_QuerySelector.htm" />
+    <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_QuerySelector.htm" />
   </HelpKINode>
   <HelpKINode Title="By.SizzleSelector method">
     <HelpKINode Title="By.SizzleSelector Method " Url="html/M_Selenium_WebDriver_Extensions_By_SizzleSelector.htm" />
@@ -89,14 +89,14 @@
   <HelpKINode Title="By.TagName method">
     <HelpKINode Title="By.TagName Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_TagName.htm" />
     <HelpKINode Title="By.TagName Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_TagName.htm" />
-    <HelpKINode Title="By.TagName Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_TagName.htm" />
     <HelpKINode Title="By.TagName Method " Url="html/M_Selenium_WebDriver_Extensions_By_TagName.htm" />
+    <HelpKINode Title="By.TagName Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_TagName.htm" />
   </HelpKINode>
   <HelpKINode Title="By.XPath method">
-    <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_XPath.htm" />
+    <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_XPath.htm" />
     <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_By_XPath.htm" />
     <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_XPath.htm" />
-    <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_XPath.htm" />
+    <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_XPath.htm" />
   </HelpKINode>
   <HelpKINode Title="CallFormatString property">
     <HelpKINode Title="ISelector.CallFormatString Property " Url="html/P_Selenium_WebDriver_Extensions_Core_ISelector_CallFormatString.htm" />
@@ -176,18 +176,18 @@
     <HelpKINode Title="SizzleLoader.CheckScript Property " Url="html/P_Selenium_WebDriver_Extensions_Sizzle_SizzleLoader_CheckScript.htm" />
   </HelpKINode>
   <HelpKINode Title="CheckSelectorPrerequisites method">
+    <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
     <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
     <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
-    <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
     <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
   </HelpKINode>
   <HelpKINode Title="CheckSupport method" Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorHelper_CheckSupport.htm" />
   <HelpKINode Title="Children method" Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Children.htm" />
   <HelpKINode Title="ClassName method">
-    <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_By_ClassName.htm" />
-    <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_ClassName.htm" />
-    <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_ClassName.htm" />
     <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_ClassName.htm" />
+    <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_ClassName.htm" />
+    <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_By_ClassName.htm" />
+    <HelpKINode Title="By.ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_ClassName.htm" />
   </HelpKINode>
   <HelpKINode Title="ClassNameSelector class">
     <HelpKINode Title="ClassNameSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_ClassNameSelector.htm" />
@@ -234,9 +234,9 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_CssSelector.htm" />
   </HelpKINode>
   <HelpKINode Title="CssSelector method">
+    <HelpKINode Title="By.CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_CssSelector.htm" />
     <HelpKINode Title="By.CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_By_CssSelector.htm" />
     <HelpKINode Title="By.CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_CssSelector.htm" />
-    <HelpKINode Title="By.CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_CssSelector.htm" />
     <HelpKINode Title="By.CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_CssSelector.htm" />
   </HelpKINode>
   <HelpKINode Title="CssSelector.CssSelector constructor" Url="html/M_Selenium_WebDriver_Extensions_Core_CssSelector__ctor.htm" />
@@ -283,9 +283,9 @@
     <HelpKINode Title="XPathSelector.Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Core_XPathSelector_Equals.htm" />
   </HelpKINode>
   <HelpKINode Title="ExecuteScript method">
-    <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_ExecuteScript.htm" />
-    <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_WebDriverExtensions_ExecuteScript.htm" />
     <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_ExecuteScript.htm" />
+    <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_WebDriverExtensions_ExecuteScript.htm" />
+    <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_ExecuteScript.htm" />
     <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_ExecuteScript.htm" />
   </HelpKINode>
   <HelpKINode Title="ExternalLibraryLoaderBase class">
@@ -319,17 +319,17 @@
     <HelpKINode Title="QuerySelectorRunner.Find(T) Method " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorRunner_Find__1.htm" />
   </HelpKINode>
   <HelpKINode Title="FindElement method">
-    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_FindElement.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_FindElement.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_FindElement.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_FindElement.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_FindElement.htm" />
     <HelpKINode Title="WebElement.FindElement Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_WebElement_FindElement.htm" />
   </HelpKINode>
   <HelpKINode Title="FindElements method">
     <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_FindElements.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_FindElements.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_FindElements.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_FindElements.htm" />
-    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_FindElements.htm" />
     <HelpKINode Title="WebElement.FindElements Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_WebElement_FindElements.htm" />
   </HelpKINode>
   <HelpKINode Title="First method" Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_First.htm" />
@@ -366,10 +366,10 @@
   <HelpKINode Title="Hide method" Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Hide.htm" />
   <HelpKINode Title="Html method" Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Html.htm" />
   <HelpKINode Title="Id method">
+    <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_Id.htm" />
+    <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_Id.htm" />
     <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_By_Id.htm" />
     <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_Id.htm" />
-    <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_Id.htm" />
-    <HelpKINode Title="By.Id Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_Id.htm" />
   </HelpKINode>
   <HelpKINode Title="IdSelector class">
     <HelpKINode Title="IdSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_IdSelector.htm" />
@@ -535,10 +535,10 @@
     <HelpKINode Title="SizzleLoader.LibraryUri Property " Url="html/P_Selenium_WebDriver_Extensions_Sizzle_SizzleLoader_LibraryUri.htm" />
   </HelpKINode>
   <HelpKINode Title="LinkText method">
-    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_LinkText.htm" />
-    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_LinkText.htm" />
-    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_LinkText.htm" />
     <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_LinkText.htm" />
+    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_LinkText.htm" />
+    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_LinkText.htm" />
+    <HelpKINode Title="By.LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_LinkText.htm" />
   </HelpKINode>
   <HelpKINode Title="LinkTextSelector class">
     <HelpKINode Title="LinkTextSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_LinkTextSelector.htm" />
@@ -590,9 +590,9 @@
   </HelpKINode>
   <HelpKINode Title="LoaderException.LoaderException constructor" Url="html/Overload_Selenium_WebDriver_Extensions_Core_LoaderException__ctor.htm" />
   <HelpKINode Title="LoadExternalLibrary method">
-    <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_LoadExternalLibrary.htm" />
-    <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_LoadExternalLibrary.htm" />
     <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_LoadExternalLibrary.htm" />
+    <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_LoadExternalLibrary.htm" />
+    <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_LoadExternalLibrary.htm" />
     <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_LoadExternalLibrary.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadScript method">
@@ -614,8 +614,8 @@
   <HelpKINode Title="Name method">
     <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_Name.htm" />
     <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_Name.htm" />
-    <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_Name.htm" />
     <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_By_Name.htm" />
+    <HelpKINode Title="By.Name Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_Name.htm" />
   </HelpKINode>
   <HelpKINode Title="NameSelector class">
     <HelpKINode Title="NameSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_NameSelector.htm" />
@@ -660,10 +660,10 @@
   <HelpKINode Title="ParseUtil.ParseResult(Of T) method" Url="html/M_Selenium_WebDriver_Extensions_Core_ParseUtil_ParseResult__1.htm" />
   <HelpKINode Title="ParseUtil.ParseResult&lt;T&gt; method" Url="html/M_Selenium_WebDriver_Extensions_Core_ParseUtil_ParseResult__1.htm" />
   <HelpKINode Title="PartialLinkText method">
-    <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_PartialLinkText.htm" />
     <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_PartialLinkText.htm" />
-    <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_PartialLinkText.htm" />
     <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_PartialLinkText.htm" />
+    <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_PartialLinkText.htm" />
+    <HelpKINode Title="By.PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_PartialLinkText.htm" />
   </HelpKINode>
   <HelpKINode Title="PartialLinkTextSelector class">
     <HelpKINode Title="PartialLinkTextSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector.htm" />
@@ -709,12 +709,12 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_QuerySelector.htm" />
   </HelpKINode>
   <HelpKINode Title="QuerySelector method">
-    <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_QuerySelector.htm" />
-    <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_QuerySelector.htm" />
     <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_QuerySelector.htm" />
     <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_QuerySelector.htm" />
-    <HelpKINode Title="WebDriverExtensions.QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_QuerySelector.htm" />
+    <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_QuerySelector.htm" />
+    <HelpKINode Title="By.QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_QuerySelector.htm" />
     <HelpKINode Title="WebDriverExtensions.QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_QuerySelector.htm" />
+    <HelpKINode Title="WebDriverExtensions.QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_QuerySelector.htm" />
     <HelpKINode Title="WebDriverExtensions.QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_QuerySelector.htm" />
     <HelpKINode Title="WebDriverExtensions.QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_QuerySelector.htm" />
   </HelpKINode>
@@ -865,8 +865,8 @@
   <HelpKINode Title="Siblings method" Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Siblings.htm" />
   <HelpKINode Title="Size property" Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_Size.htm" />
   <HelpKINode Title="Sizzle method">
-    <HelpKINode Title="WebDriverExtensions.Sizzle Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_Sizzle.htm" />
     <HelpKINode Title="WebDriverExtensions.Sizzle Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_Sizzle.htm" />
+    <HelpKINode Title="WebDriverExtensions.Sizzle Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_Sizzle.htm" />
   </HelpKINode>
   <HelpKINode Title="SizzleHelper class">
     <HelpKINode Title="SizzleHelper Class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_SizzleHelper.htm" />
@@ -905,8 +905,8 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector.htm" />
   </HelpKINode>
   <HelpKINode Title="SizzleSelector method">
-    <HelpKINode Title="By.SizzleSelector Method " Url="html/M_Selenium_WebDriver_Extensions_By_SizzleSelector.htm" />
     <HelpKINode Title="By.SizzleSelector Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_SizzleSelector.htm" />
+    <HelpKINode Title="By.SizzleSelector Method " Url="html/M_Selenium_WebDriver_Extensions_By_SizzleSelector.htm" />
   </HelpKINode>
   <HelpKINode Title="SizzleSelector.Context property" Url="html/P_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector_Context.htm" />
   <HelpKINode Title="SizzleSelector.Create method" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector_Create.htm" />
@@ -930,9 +930,9 @@
   <HelpKINode Title="Submit method" Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_Submit.htm" />
   <HelpKINode Title="TagName method">
     <HelpKINode Title="By.TagName Method " Url="html/M_Selenium_WebDriver_Extensions_By_TagName.htm" />
+    <HelpKINode Title="By.TagName Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_TagName.htm" />
     <HelpKINode Title="By.TagName Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_TagName.htm" />
     <HelpKINode Title="By.TagName Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_TagName.htm" />
-    <HelpKINode Title="By.TagName Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_TagName.htm" />
   </HelpKINode>
   <HelpKINode Title="TagName property" Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_TagName.htm" />
   <HelpKINode Title="TagNameSelector class">
@@ -967,41 +967,41 @@
   <HelpKINode Title="TypeArgumentException.TypeArgumentException constructor" Url="html/Overload_Selenium_WebDriver_Extensions_Core_TypeArgumentException__ctor.htm" />
   <HelpKINode Title="Value method" Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Value.htm" />
   <HelpKINode Title="WebDriverExtensions class">
-    <HelpKINode Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_WebDriverExtensions.htm" />
-    <HelpKINode Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions.htm" />
-    <HelpKINode Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions.htm" />
     <HelpKINode Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_Core_WebDriverExtensions.htm" />
-    <HelpKINode Title="about WebDriverExtensions class" Url="html/T_Selenium_WebDriver_Extensions_Core_WebDriverExtensions.htm" />
-    <HelpKINode Title="about WebDriverExtensions class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions.htm" />
+    <HelpKINode Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions.htm" />
+    <HelpKINode Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions.htm" />
+    <HelpKINode Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_WebDriverExtensions.htm" />
     <HelpKINode Title="about WebDriverExtensions class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions.htm" />
     <HelpKINode Title="about WebDriverExtensions class" Url="html/T_Selenium_WebDriver_Extensions_WebDriverExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions.htm" />
+    <HelpKINode Title="about WebDriverExtensions class" Url="html/T_Selenium_WebDriver_Extensions_Core_WebDriverExtensions.htm" />
+    <HelpKINode Title="about WebDriverExtensions class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_WebDriverExtensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_WebDriverExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_WebDriverExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites method">
+    <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
+    <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
     <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
     <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
-    <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
-    <HelpKINode Title="WebDriverExtensions.CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.ExecuteScript method">
+    <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_ExecuteScript.htm" />
+    <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_ExecuteScript.htm" />
     <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_ExecuteScript.htm" />
     <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_WebDriverExtensions_ExecuteScript.htm" />
-    <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_ExecuteScript.htm" />
-    <HelpKINode Title="WebDriverExtensions.ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_ExecuteScript.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.FindElement method">
-    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_FindElement.htm" />
-    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_FindElement.htm" />
-    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_FindElement.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_FindElement.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_FindElement.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_FindElement.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_FindElement.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.FindElements method">
-    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_FindElements.htm" />
-    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_FindElements.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_FindElements.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_FindElements.htm" />
+    <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_FindElements.htm" />
     <HelpKINode Title="WebDriverExtensions.FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_FindElements.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.JQuery method">
@@ -1009,20 +1009,20 @@
     <HelpKINode Title="WebDriverExtensions.JQuery Method " Url="html/Overload_Selenium_WebDriver_Extensions_WebDriverExtensions_JQuery.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary method">
+    <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_LoadExternalLibrary.htm" />
     <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_LoadExternalLibrary.htm" />
     <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_LoadExternalLibrary.htm" />
-    <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_LoadExternalLibrary.htm" />
     <HelpKINode Title="WebDriverExtensions.LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_LoadExternalLibrary.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.QuerySelector method">
     <HelpKINode Title="WebDriverExtensions.QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_QuerySelector.htm" />
+    <HelpKINode Title="WebDriverExtensions.QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_QuerySelector.htm" />
     <HelpKINode Title="WebDriverExtensions.QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_QuerySelector.htm" />
     <HelpKINode Title="WebDriverExtensions.QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_QuerySelector.htm" />
-    <HelpKINode Title="WebDriverExtensions.QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_QuerySelector.htm" />
   </HelpKINode>
   <HelpKINode Title="WebDriverExtensions.Sizzle method">
-    <HelpKINode Title="WebDriverExtensions.Sizzle Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_Sizzle.htm" />
     <HelpKINode Title="WebDriverExtensions.Sizzle Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_Sizzle.htm" />
+    <HelpKINode Title="WebDriverExtensions.Sizzle Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_Sizzle.htm" />
   </HelpKINode>
   <HelpKINode Title="WebElement class">
     <HelpKINode Title="WebElement Class" Url="html/T_Selenium_WebDriver_Extensions_Core_WebElement.htm" />
@@ -1057,22 +1057,22 @@
   <HelpKINode Title="WebElementExtensions class">
     <HelpKINode Title="WebElementExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_WebElementExtensions.htm" />
     <HelpKINode Title="WebElementExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_WebElementExtensions.htm" />
-    <HelpKINode Title="about WebElementExtensions class" Url="html/T_Selenium_WebDriver_Extensions_WebElementExtensions.htm" />
     <HelpKINode Title="about WebElementExtensions class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_WebElementExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_WebElementExtensions.htm" />
+    <HelpKINode Title="about WebElementExtensions class" Url="html/T_Selenium_WebDriver_Extensions_WebElementExtensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_WebElementExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_WebElementExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="WebElementExtensions.JQuery method">
-    <HelpKINode Title="WebElementExtensions.JQuery Method " Url="html/Overload_Selenium_WebDriver_Extensions_WebElementExtensions_JQuery.htm" />
     <HelpKINode Title="WebElementExtensions.JQuery Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_WebElementExtensions_JQuery.htm" />
+    <HelpKINode Title="WebElementExtensions.JQuery Method " Url="html/Overload_Selenium_WebDriver_Extensions_WebElementExtensions_JQuery.htm" />
   </HelpKINode>
   <HelpKINode Title="Width method" Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Width.htm" />
   <HelpKINode Title="WrappedDriver property" Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_WrappedDriver.htm" />
   <HelpKINode Title="XPath method">
-    <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_By_XPath.htm" />
+    <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_XPath.htm" />
     <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_XPath.htm" />
     <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_XPath.htm" />
-    <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_XPath.htm" />
+    <HelpKINode Title="By.XPath Method " Url="html/M_Selenium_WebDriver_Extensions_By_XPath.htm" />
   </HelpKINode>
   <HelpKINode Title="XPath property" Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_XPath.htm" />
   <HelpKINode Title="XPathSelector class">
