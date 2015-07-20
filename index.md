@@ -9,19 +9,21 @@ Extensions for Selenium WebDriver.
 # Features
 * Main
  * Support for nested selectors
- * Very easy setup: install packages with NuGet, include a namespace and start using it with your existing Selenium solution
- * High quality ensured by continous integration setup with Appveyor, unit and integration testing and hight code coverage
+ * Very easy setup: install packages with NuGet and start using it with your existing Selenium solution
+ * High quality ensured by continuous integration setup with Appveyor, unit and integration testing and high code coverage
  * Well documented code following strict StyleCop and FxCop rules
 * jQuery support
  * jQuery selectors support for Selenium WebDriver to perform DOM-element selections that CSS can't do
  * jQuery auto-load on pages on sites that don't use jQuery
  * Support for jQuery context switching
- * Support for jQuery traversing methods for generation of complex selector chains
- * Support for jQuery setter and event trigering methods
+ * Support for `ExpectedConditions` with jQuery selectors
+ * Support for Page Objects with jQuery selectors
 * Sizzle support
  * Sizzle selectors support for Selenium WebDriver to perform DOM-element selections that CSS can't do
  * Sizzle auto-load on pages on sites that don't use Sizzle
  * Support for Sizzle context switching
+ * Support for `ExpectedConditions` with Sizzle selectors
+ * Support for Page Objects with Sizzle selectors
 
 # Installation
 Run the following command in Visual Studio Packet Manager Console.
@@ -30,26 +32,19 @@ Run the following command in Visual Studio Packet Manager Console.
 Install-Package Selenium.WebDriver.Extensions
 {% endhighlight %}
 
-This will install the full package containing jQuery, Sizzle and core selectors support. If you want to use only specific extensions you can do this by installing a specific package in Package Manager Console.
-
-{% highlight powershell %}
-Install-Package Selenium.WebDriver.Extensions.JQuery
-Install-Package Selenium.WebDriver.Extensions.Sizzle
-Install-Package Selenium.WebDriver.Extensions.Core
-{% endhighlight %}
-
 # Documentation
 API documentation can be found [here](https://rayell.github.io/selenium-webdriver-extensions/api) and user guide is on the [wiki](https://github.com/RaYell/selenium-webdriver-extensions/wiki).
 
 # Usage
 
 ## Include extensions
-Include extensions namespace and set the derived `By` to be used.
+Create alias for the extension `By` to be used.
 
 {% highlight csharp %}
-using Selenium.WebDriver.Extensions;
-using By = Selenium.WebDriver.Extensions.By;
+using By = OpenQA.Selenium.Extensions.By;
 {% endhighlight %}
+
+If you don't want to override the `By` to be used, you can always create `JQuerySelector` and `SizzleSelector` instances with `new` keyword.
 
 ## Basic jQuery example
 Invoke jQuery selectors on the WebDriver.
@@ -87,20 +82,6 @@ You can use one `JQuerySelector` instance as a context of another `JQuerySelecto
 var context = By.JQuerySelector("div.myClass");
 var selector = By.JQuerySelector("ol li", context);
 driver.FindElements(selector);
-{% endhighlight %}
-
-## jQuery helper methods
-You can have instant access to values of the getter jQuery methods.
-
-{% highlight csharp %}
-var value = driver.JQuery("input").Value();
-{% endhighlight %}
-
-You can also set the values and trigger events using the API.
-
-{% highlight csharp %}
-driver.JQuery("input").Value("new value");
-driver.JQuery("button:submit").Click();
 {% endhighlight %}
 
 ## Basic Sizzle example
