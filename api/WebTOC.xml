@@ -1,803 +1,189 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="d1875a05-8698-4967-8b63-80f453e6fee6" Title="Namespaces" Url="html/R_Project_Documentation.htm">
-    <HelpTOCNode Id="796bec91-23f4-479d-8129-3258269e8444" Title="Selenium.WebDriver.Extensions" Url="html/N_Selenium_WebDriver_Extensions.htm">
-      <HelpTOCNode Id="f9da77de-7cc5-4c89-ab25-95c0b5f2ab6e" Title="By Class" Url="html/T_Selenium_WebDriver_Extensions_By.htm">
-        <HelpTOCNode Title="By Constructor " Url="html/M_Selenium_WebDriver_Extensions_By__ctor.htm" />
-        <HelpTOCNode Id="4d66232e-f3fe-492a-a047-599cc69baa30" Title="By Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_By.htm">
-          <HelpTOCNode Title="ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_By_ClassName.htm" />
-          <HelpTOCNode Title="CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_By_CssSelector.htm" />
-          <HelpTOCNode Title="Id Method " Url="html/M_Selenium_WebDriver_Extensions_By_Id.htm" />
-          <HelpTOCNode Title="JQuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_By_JQuerySelector.htm" />
-          <HelpTOCNode Id="ac7c0189-f872-46dc-8429-faf110254037" Title="LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_LinkText.htm">
-            <HelpTOCNode Title="LinkText Method (String)" Url="html/M_Selenium_WebDriver_Extensions_By_LinkText.htm" />
-            <HelpTOCNode Title="LinkText Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_By_LinkText_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="Name Method " Url="html/M_Selenium_WebDriver_Extensions_By_Name.htm" />
-          <HelpTOCNode Id="5d59b34e-cb34-4d9a-b242-826f60849b31" Title="PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_PartialLinkText.htm">
-            <HelpTOCNode Title="PartialLinkText Method (String)" Url="html/M_Selenium_WebDriver_Extensions_By_PartialLinkText.htm" />
-            <HelpTOCNode Title="PartialLinkText Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_By_PartialLinkText_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="d6afb9b7-88c8-4185-b8c1-767347c1bbea" Title="QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_By_QuerySelector.htm">
-            <HelpTOCNode Title="QuerySelector Method (String, ISelector)" Url="html/M_Selenium_WebDriver_Extensions_By_QuerySelector.htm" />
-            <HelpTOCNode Title="QuerySelector Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_By_QuerySelector_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="SizzleSelector Method " Url="html/M_Selenium_WebDriver_Extensions_By_SizzleSelector.htm" />
-          <HelpTOCNode Title="TagName Method " Url="html/M_Selenium_WebDriver_Extensions_By_TagName.htm" />
-          <HelpTOCNode Title="XPath Method " Url="html/M_Selenium_WebDriver_Extensions_By_XPath.htm" />
+  <HelpTOCNode Id="bc245a8f-4a3b-44be-ad72-5b5c914fba90" Title="Namespaces" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="4b1daf0c-7c49-4783-91f4-283c712ef4c4" Title="OpenQA.Selenium" Url="html/N_OpenQA_Selenium.htm">
+      <HelpTOCNode Id="75715796-3ee5-465c-a097-b5f37c822a59" Title="JQuerySelector Class" Url="html/T_OpenQA_Selenium_JQuerySelector.htm">
+        <HelpTOCNode Id="6df26b0c-f0a0-4da2-98b2-87401d877295" Title="JQuerySelector Constructor " Url="html/Overload_OpenQA_Selenium_JQuerySelector__ctor.htm">
+          <HelpTOCNode Title="JQuerySelector Constructor (String)" Url="html/M_OpenQA_Selenium_JQuerySelector__ctor.htm" />
+          <HelpTOCNode Title="JQuerySelector Constructor (String, JQuerySelector, String, String)" Url="html/M_OpenQA_Selenium_JQuerySelector__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Title="By Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_By.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="42339a7b-9434-4ab5-a506-0ba918ffda86" Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_WebDriverExtensions.htm">
-        <HelpTOCNode Id="58777bc4-ca5f-42c5-af12-ab052795709c" Title="WebDriverExtensions Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_WebDriverExtensions.htm">
-          <HelpTOCNode Title="CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
-          <HelpTOCNode Id="30812795-6d71-41b0-9b0a-3b00ad4234bc" Title="ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_WebDriverExtensions_ExecuteScript.htm">
-            <HelpTOCNode Title="ExecuteScript Method (IWebDriver, String, Object[])" Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_ExecuteScript.htm" />
-            <HelpTOCNode Title="ExecuteScript(T) Method (IWebDriver, String, Object[])" Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_ExecuteScript__1.htm" />
+        <HelpTOCNode Id="d857bcd8-761e-44b3-a9e5-058db17e3f57" Title="JQuerySelector Methods" Url="html/Methods_T_OpenQA_Selenium_JQuerySelector.htm">
+          <HelpTOCNode Id="8b45b400-742e-4643-b0d3-c6e94e73e811" Title="Add Method " Url="html/Overload_OpenQA_Selenium_JQuerySelector_Add.htm">
+            <HelpTOCNode Title="Add Method (String)" Url="html/M_OpenQA_Selenium_JQuerySelector_Add.htm" />
+            <HelpTOCNode Title="Add Method (String, JQuerySelector)" Url="html/M_OpenQA_Selenium_JQuerySelector_Add_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Title="FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_FindElement.htm" />
-          <HelpTOCNode Title="FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_FindElements.htm" />
-          <HelpTOCNode Id="d22d74d4-af93-4879-b2a6-cd00bb2df8c3" Title="JQuery Method " Url="html/Overload_Selenium_WebDriver_Extensions_WebDriverExtensions_JQuery.htm">
-            <HelpTOCNode Title="JQuery Method (IWebDriver)" Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_JQuery.htm" />
-            <HelpTOCNode Title="JQuery Method (IWebDriver, JQuerySelector)" Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_JQuery_1.htm" />
-            <HelpTOCNode Title="JQuery Method (IWebDriver, String)" Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_JQuery_2.htm" />
+          <HelpTOCNode Title="AddBack Method " Url="html/M_OpenQA_Selenium_JQuerySelector_AddBack.htm" />
+          <HelpTOCNode Title="AndSelf Method " Url="html/M_OpenQA_Selenium_JQuerySelector_AndSelf.htm" />
+          <HelpTOCNode Title="Children Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Children.htm" />
+          <HelpTOCNode Id="cf2154be-0f46-4a8f-873a-bf228f3f54f4" Title="Closest Method " Url="html/Overload_OpenQA_Selenium_JQuerySelector_Closest.htm">
+            <HelpTOCNode Title="Closest Method (String)" Url="html/M_OpenQA_Selenium_JQuerySelector_Closest.htm" />
+            <HelpTOCNode Title="Closest Method (String, JQuerySelector)" Url="html/M_OpenQA_Selenium_JQuerySelector_Closest_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Title="LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_LoadExternalLibrary.htm" />
-          <HelpTOCNode Title="QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_QuerySelector.htm" />
-          <HelpTOCNode Title="Sizzle Method " Url="html/M_Selenium_WebDriver_Extensions_WebDriverExtensions_Sizzle.htm" />
+          <HelpTOCNode Title="Contents Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Contents.htm" />
+          <HelpTOCNode Title="CreateContext Method " Url="html/M_OpenQA_Selenium_JQuerySelector_CreateContext.htm" />
+          <HelpTOCNode Title="End Method " Url="html/M_OpenQA_Selenium_JQuerySelector_End.htm" />
+          <HelpTOCNode Title="Eq Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Eq.htm" />
+          <HelpTOCNode Title="Filter Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Filter.htm" />
+          <HelpTOCNode Title="Find Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Find.htm" />
+          <HelpTOCNode Title="First Method " Url="html/M_OpenQA_Selenium_JQuerySelector_First.htm" />
+          <HelpTOCNode Title="Has Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Has.htm" />
+          <HelpTOCNode Title="Is Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Is.htm" />
+          <HelpTOCNode Title="Last Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Last.htm" />
+          <HelpTOCNode Title="LoadExternalLibrary Method " Url="html/M_OpenQA_Selenium_JQuerySelector_LoadExternalLibrary.htm" />
+          <HelpTOCNode Title="Next Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Next.htm" />
+          <HelpTOCNode Title="NextAll Method " Url="html/M_OpenQA_Selenium_JQuerySelector_NextAll.htm" />
+          <HelpTOCNode Title="NextUntil Method " Url="html/M_OpenQA_Selenium_JQuerySelector_NextUntil.htm" />
+          <HelpTOCNode Title="Not Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Not.htm" />
+          <HelpTOCNode Title="OffsetParent Method " Url="html/M_OpenQA_Selenium_JQuerySelector_OffsetParent.htm" />
+          <HelpTOCNode Title="Parent Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Parent.htm" />
+          <HelpTOCNode Title="Parents Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Parents.htm" />
+          <HelpTOCNode Title="ParentsUntil Method " Url="html/M_OpenQA_Selenium_JQuerySelector_ParentsUntil.htm" />
+          <HelpTOCNode Title="Prev Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Prev.htm" />
+          <HelpTOCNode Title="PrevAll Method " Url="html/M_OpenQA_Selenium_JQuerySelector_PrevAll.htm" />
+          <HelpTOCNode Title="PrevUntil Method " Url="html/M_OpenQA_Selenium_JQuerySelector_PrevUntil.htm" />
+          <HelpTOCNode Title="Siblings Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Siblings.htm" />
+          <HelpTOCNode Title="Slice Method " Url="html/M_OpenQA_Selenium_JQuerySelector_Slice.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="705302b4-79d3-4abf-bd9e-d585dd81475e" Title="JQuerySelector Properties" Url="html/Properties_T_OpenQA_Selenium_JQuerySelector.htm">
+          <HelpTOCNode Title="ResultResolver Property " Url="html/P_OpenQA_Selenium_JQuerySelector_ResultResolver.htm" />
+          <HelpTOCNode Title="Selector Property " Url="html/P_OpenQA_Selenium_JQuerySelector_Selector.htm" />
+          <HelpTOCNode Title="Variable Property " Url="html/P_OpenQA_Selenium_JQuerySelector_Variable.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="45667d09-78a5-4329-a1a7-b06d59ae6a17" Title="WebElementExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_WebElementExtensions.htm">
-        <HelpTOCNode Id="409fe3a6-838f-41c3-8056-f3371626494f" Title="WebElementExtensions Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_WebElementExtensions.htm">
-          <HelpTOCNode Id="07e12f01-02b7-479c-a947-d192a3ea67b8" Title="JQuery Method " Url="html/Overload_Selenium_WebDriver_Extensions_WebElementExtensions_JQuery.htm">
-            <HelpTOCNode Title="JQuery Method (WebElement, JQuerySelector)" Url="html/M_Selenium_WebDriver_Extensions_WebElementExtensions_JQuery.htm" />
-            <HelpTOCNode Title="JQuery Method (WebElement, String)" Url="html/M_Selenium_WebDriver_Extensions_WebElementExtensions_JQuery_1.htm" />
+      <HelpTOCNode Id="1ce50fad-c3fc-4f8f-a160-21beac9eba2c" Title="LoaderException Class" Url="html/T_OpenQA_Selenium_LoaderException.htm">
+        <HelpTOCNode Id="2baba3d2-8f5e-42bb-a99f-8627c36f3cbe" Title="LoaderException Constructor " Url="html/Overload_OpenQA_Selenium_LoaderException__ctor.htm">
+          <HelpTOCNode Title="LoaderException Constructor " Url="html/M_OpenQA_Selenium_LoaderException__ctor.htm" />
+          <HelpTOCNode Title="LoaderException Constructor (String)" Url="html/M_OpenQA_Selenium_LoaderException__ctor_2.htm" />
+          <HelpTOCNode Title="LoaderException Constructor (SerializationInfo, StreamingContext)" Url="html/M_OpenQA_Selenium_LoaderException__ctor_1.htm" />
+          <HelpTOCNode Title="LoaderException Constructor (String, Exception)" Url="html/M_OpenQA_Selenium_LoaderException__ctor_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LoaderException Methods" Url="html/Methods_T_OpenQA_Selenium_LoaderException.htm" />
+        <HelpTOCNode Title="LoaderException Properties" Url="html/Properties_T_OpenQA_Selenium_LoaderException.htm" />
+        <HelpTOCNode Title="LoaderException Events" Url="html/Events_T_OpenQA_Selenium_LoaderException.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="281eb68b-4854-40cb-8153-011cac75fa57" Title="ParseUtil Class" Url="html/T_OpenQA_Selenium_ParseUtil.htm">
+        <HelpTOCNode Id="3088a3cd-8734-4cec-82ca-99260b203783" Title="ParseUtil Methods" Url="html/Methods_T_OpenQA_Selenium_ParseUtil.htm">
+          <HelpTOCNode Title="ParseResult(T) Method " Url="html/M_OpenQA_Selenium_ParseUtil_ParseResult__1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="46424138-5773-476d-a014-1605d3250f9a" Title="SelectorBase(T) Class" Url="html/T_OpenQA_Selenium_SelectorBase_1.htm">
+        <HelpTOCNode Title="SelectorBase(T) Constructor " Url="html/M_OpenQA_Selenium_SelectorBase_1__ctor.htm" />
+        <HelpTOCNode Id="2d379409-80d5-43b7-a4e2-0f044ea5df50" Title="SelectorBase(T) Methods" Url="html/Methods_T_OpenQA_Selenium_SelectorBase_1.htm">
+          <HelpTOCNode Title="CreateContext Method " Url="html/M_OpenQA_Selenium_SelectorBase_1_CreateContext.htm" />
+          <HelpTOCNode Title="LoadExternalLibrary Method " Url="html/M_OpenQA_Selenium_SelectorBase_1_LoadExternalLibrary.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1c9c46f0-444d-475c-af72-d4d54660340f" Title="SelectorBase(T) Properties" Url="html/Properties_T_OpenQA_Selenium_SelectorBase_1.htm">
+          <HelpTOCNode Title="Context Property " Url="html/P_OpenQA_Selenium_SelectorBase_1_Context.htm" />
+          <HelpTOCNode Title="RawSelector Property " Url="html/P_OpenQA_Selenium_SelectorBase_1_RawSelector.htm" />
+          <HelpTOCNode Title="ResultResolver Property " Url="html/P_OpenQA_Selenium_SelectorBase_1_ResultResolver.htm" />
+          <HelpTOCNode Title="Selector Property " Url="html/P_OpenQA_Selenium_SelectorBase_1_Selector.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="82148592-ef74-4682-a750-c3d14d536f8b" Title="SizzleSelector Class" Url="html/T_OpenQA_Selenium_SizzleSelector.htm">
+        <HelpTOCNode Id="35825a56-67e1-4897-9f37-1ef02109082d" Title="SizzleSelector Constructor " Url="html/Overload_OpenQA_Selenium_SizzleSelector__ctor.htm">
+          <HelpTOCNode Title="SizzleSelector Constructor (String)" Url="html/M_OpenQA_Selenium_SizzleSelector__ctor.htm" />
+          <HelpTOCNode Title="SizzleSelector Constructor (String, SizzleSelector)" Url="html/M_OpenQA_Selenium_SizzleSelector__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5ebd64e2-e6b4-4181-b1ed-78adc22bc4a6" Title="SizzleSelector Methods" Url="html/Methods_T_OpenQA_Selenium_SizzleSelector.htm">
+          <HelpTOCNode Title="CreateContext Method " Url="html/M_OpenQA_Selenium_SizzleSelector_CreateContext.htm" />
+          <HelpTOCNode Title="LoadExternalLibrary Method " Url="html/M_OpenQA_Selenium_SizzleSelector_LoadExternalLibrary.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b9ea36c1-764e-4e16-92e3-781d0620453e" Title="SizzleSelector Properties" Url="html/Properties_T_OpenQA_Selenium_SizzleSelector.htm">
+          <HelpTOCNode Title="Selector Property " Url="html/P_OpenQA_Selenium_SizzleSelector_Selector.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8be4798b-0e6b-4113-a49f-05d82125ce7e" Title="OpenQA.Selenium.Extensions" Url="html/N_OpenQA_Selenium_Extensions.htm">
+      <HelpTOCNode Id="fd7e6dad-5055-47a3-8ce3-d5663e795278" Title="By Class" Url="html/T_OpenQA_Selenium_Extensions_By.htm">
+        <HelpTOCNode Title="By Constructor " Url="html/M_OpenQA_Selenium_Extensions_By__ctor.htm" />
+        <HelpTOCNode Id="4a907dab-a299-41c8-a51d-b72e7300a64e" Title="By Methods" Url="html/Methods_T_OpenQA_Selenium_Extensions_By.htm">
+          <HelpTOCNode Title="ClassName Method " Url="html/M_OpenQA_Selenium_Extensions_By_ClassName.htm" />
+          <HelpTOCNode Title="CssSelector Method " Url="html/M_OpenQA_Selenium_Extensions_By_CssSelector.htm" />
+          <HelpTOCNode Title="Id Method " Url="html/M_OpenQA_Selenium_Extensions_By_Id.htm" />
+          <HelpTOCNode Title="JQuerySelector Method " Url="html/M_OpenQA_Selenium_Extensions_By_JQuerySelector.htm" />
+          <HelpTOCNode Title="LinkText Method " Url="html/M_OpenQA_Selenium_Extensions_By_LinkText.htm" />
+          <HelpTOCNode Title="Name Method " Url="html/M_OpenQA_Selenium_Extensions_By_Name.htm" />
+          <HelpTOCNode Title="PartialLinkText Method " Url="html/M_OpenQA_Selenium_Extensions_By_PartialLinkText.htm" />
+          <HelpTOCNode Title="SizzleSelector Method " Url="html/M_OpenQA_Selenium_Extensions_By_SizzleSelector.htm" />
+          <HelpTOCNode Title="TagName Method " Url="html/M_OpenQA_Selenium_Extensions_By_TagName.htm" />
+          <HelpTOCNode Title="XPath Method " Url="html/M_OpenQA_Selenium_Extensions_By_XPath.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="By Properties" Url="html/Properties_T_OpenQA_Selenium_Extensions_By.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="928e6bbc-cba7-4bb3-b9b8-2757e7923087" Title="StringExtensions Class" Url="html/T_OpenQA_Selenium_Extensions_StringExtensions.htm">
+        <HelpTOCNode Id="d70dfa38-97fc-4d50-a145-4c161b79da07" Title="StringExtensions Methods" Url="html/Methods_T_OpenQA_Selenium_Extensions_StringExtensions.htm">
+          <HelpTOCNode Title="IsNullOrWhiteSpace Method " Url="html/M_OpenQA_Selenium_Extensions_StringExtensions_IsNullOrWhiteSpace.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="7aa488ad-686d-4d04-80a7-99b67859d082" Title="WebDriverExtensions Class" Url="html/T_OpenQA_Selenium_Extensions_WebDriverExtensions.htm">
+        <HelpTOCNode Id="16050ed9-92f7-4283-b527-b97332d7a307" Title="WebDriverExtensions Methods" Url="html/Methods_T_OpenQA_Selenium_Extensions_WebDriverExtensions.htm">
+          <HelpTOCNode Title="CheckSelectorPrerequisites Method " Url="html/M_OpenQA_Selenium_Extensions_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
+          <HelpTOCNode Id="b42884e3-5800-4cf2-898f-c328ef8eba60" Title="ExecuteScript Method " Url="html/Overload_OpenQA_Selenium_Extensions_WebDriverExtensions_ExecuteScript.htm">
+            <HelpTOCNode Title="ExecuteScript Method (IWebDriver, String, Object[])" Url="html/M_OpenQA_Selenium_Extensions_WebDriverExtensions_ExecuteScript.htm" />
+            <HelpTOCNode Title="ExecuteScript(T) Method (IWebDriver, String, Object[])" Url="html/M_OpenQA_Selenium_Extensions_WebDriverExtensions_ExecuteScript__1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="LoadExternalLibrary Method " Url="html/M_OpenQA_Selenium_Extensions_WebDriverExtensions_LoadExternalLibrary.htm" />
+          <HelpTOCNode Id="46feac21-c801-4244-832e-5a7c6e53c67a" Title="LoadJQuery Method " Url="html/Overload_OpenQA_Selenium_Extensions_WebDriverExtensions_LoadJQuery.htm">
+            <HelpTOCNode Title="LoadJQuery Method (IWebDriver, String, Nullable(TimeSpan))" Url="html/M_OpenQA_Selenium_Extensions_WebDriverExtensions_LoadJQuery.htm" />
+            <HelpTOCNode Title="LoadJQuery Method (IWebDriver, Uri, Nullable(TimeSpan))" Url="html/M_OpenQA_Selenium_Extensions_WebDriverExtensions_LoadJQuery_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="13e95e0d-214a-4698-b0cd-64a73c2bec92" Title="LoadSizzle Method " Url="html/Overload_OpenQA_Selenium_Extensions_WebDriverExtensions_LoadSizzle.htm">
+            <HelpTOCNode Title="LoadSizzle Method (IWebDriver, String, Nullable(TimeSpan))" Url="html/M_OpenQA_Selenium_Extensions_WebDriverExtensions_LoadSizzle.htm" />
+            <HelpTOCNode Title="LoadSizzle Method (IWebDriver, Uri, Nullable(TimeSpan))" Url="html/M_OpenQA_Selenium_Extensions_WebDriverExtensions_LoadSizzle_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="023e343b-b180-4a27-9fec-2e57e30de938" Title="Selenium.WebDriver.Extensions.Core" Url="html/N_Selenium_WebDriver_Extensions_Core.htm">
-      <HelpTOCNode Id="392daa61-186b-4a97-b0ab-df80e8742a0c" Title="By Class" Url="html/T_Selenium_WebDriver_Extensions_Core_By.htm">
-        <HelpTOCNode Title="By Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_By__ctor.htm" />
-        <HelpTOCNode Id="914828d9-7d4b-4fdb-bdc4-11f81f585395" Title="By Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_By.htm">
-          <HelpTOCNode Title="ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_ClassName.htm" />
-          <HelpTOCNode Title="CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_CssSelector.htm" />
-          <HelpTOCNode Title="Id Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_Id.htm" />
-          <HelpTOCNode Id="83cb1b75-03bd-45cd-8f81-3e02d2b1487d" Title="LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_LinkText.htm">
-            <HelpTOCNode Title="LinkText Method (String)" Url="html/M_Selenium_WebDriver_Extensions_Core_By_LinkText.htm" />
-            <HelpTOCNode Title="LinkText Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_Core_By_LinkText_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="Name Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_Name.htm" />
-          <HelpTOCNode Id="ea837944-ce73-4fa4-9b6c-e72fd80bd105" Title="PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_PartialLinkText.htm">
-            <HelpTOCNode Title="PartialLinkText Method (String)" Url="html/M_Selenium_WebDriver_Extensions_Core_By_PartialLinkText.htm" />
-            <HelpTOCNode Title="PartialLinkText Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_Core_By_PartialLinkText_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="e20c21b1-3c51-4e98-aaa3-22f5e3941818" Title="QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_By_QuerySelector.htm">
-            <HelpTOCNode Title="QuerySelector Method (String, ISelector)" Url="html/M_Selenium_WebDriver_Extensions_Core_By_QuerySelector.htm" />
-            <HelpTOCNode Title="QuerySelector Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_Core_By_QuerySelector_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="TagName Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_TagName.htm" />
-          <HelpTOCNode Title="XPath Method " Url="html/M_Selenium_WebDriver_Extensions_Core_By_XPath.htm" />
+    <HelpTOCNode Id="ac66b8a6-e597-4f1c-84ad-03855351e1f2" Title="OpenQA.Selenium.Loaders" Url="html/N_OpenQA_Selenium_Loaders.htm">
+      <HelpTOCNode Id="d76dd1b0-b515-4464-a0d3-ef6e119bd09c" Title="ExternalLibraryLoaderBase Class" Url="html/T_OpenQA_Selenium_Loaders_ExternalLibraryLoaderBase.htm">
+        <HelpTOCNode Title="ExternalLibraryLoaderBase Constructor " Url="html/M_OpenQA_Selenium_Loaders_ExternalLibraryLoaderBase__ctor.htm" />
+        <HelpTOCNode Id="d22f026f-fb92-4c15-94a0-ffe576efd8f7" Title="ExternalLibraryLoaderBase Fields" Url="html/Fields_T_OpenQA_Selenium_Loaders_ExternalLibraryLoaderBase.htm">
+          <HelpTOCNode Title="LoadScriptCode Field" Url="html/F_OpenQA_Selenium_Loaders_ExternalLibraryLoaderBase_LoadScriptCode.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Title="By Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_By.htm" />
+        <HelpTOCNode Title="ExternalLibraryLoaderBase Methods" Url="html/Methods_T_OpenQA_Selenium_Loaders_ExternalLibraryLoaderBase.htm" />
+        <HelpTOCNode Title="ExternalLibraryLoaderBase Properties" Url="html/Properties_T_OpenQA_Selenium_Loaders_ExternalLibraryLoaderBase.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="bdc704f7-8943-4fda-b118-1a5744bccde6" Title="ClassNameSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_ClassNameSelector.htm">
-        <HelpTOCNode Title="ClassNameSelector Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_ClassNameSelector__ctor.htm" />
-        <HelpTOCNode Id="76064878-71a2-4686-aff4-42cf79b6e4fb" Title="ClassNameSelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_ClassNameSelector.htm">
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Core_ClassNameSelector_Equals.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_Core_ClassNameSelector_GetHashCode.htm" />
+      <HelpTOCNode Id="a12bc0b7-403e-4dca-97ae-621574b02598" Title="ILoader Interface" Url="html/T_OpenQA_Selenium_Loaders_ILoader.htm">
+        <HelpTOCNode Id="8f2a5a75-776e-4f5c-8b88-75a0c205bf6a" Title="ILoader Methods" Url="html/Methods_T_OpenQA_Selenium_Loaders_ILoader.htm">
+          <HelpTOCNode Title="LoadScript Method " Url="html/M_OpenQA_Selenium_Loaders_ILoader_LoadScript.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="413e8cb9-0dba-46ee-bc91-d90d4d9ea26f" Title="ClassNameSelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_Core_ClassNameSelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_ClassNameSelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_ClassNameSelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="ClassNameSelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_ClassNameSelector.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="dd695efc-4e9e-4024-87a6-40b2fb91bb64" Title="CssSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_CssSelector.htm">
-        <HelpTOCNode Title="CssSelector Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_CssSelector__ctor.htm" />
-        <HelpTOCNode Id="09eb1368-4f58-40f3-a6a8-06bd3f0e2931" Title="CssSelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_CssSelector.htm">
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Core_CssSelector_Equals.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_Core_CssSelector_GetHashCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="6178ad21-8396-49ba-96a4-113d49e271b4" Title="CssSelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_Core_CssSelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_CssSelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_CssSelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="CssSelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_CssSelector.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="14ee0c38-2bad-4076-ade9-6301bb3e387c" Title="ExternalLibraryLoaderBase Class" Url="html/T_Selenium_WebDriver_Extensions_Core_ExternalLibraryLoaderBase.htm">
-        <HelpTOCNode Title="ExternalLibraryLoaderBase Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_ExternalLibraryLoaderBase__ctor.htm" />
-        <HelpTOCNode Id="edb76b1d-6284-49b9-8ff9-d63b00ea0cd2" Title="ExternalLibraryLoaderBase Fields" Url="html/Fields_T_Selenium_WebDriver_Extensions_Core_ExternalLibraryLoaderBase.htm">
-          <HelpTOCNode Title="LoadScriptCode Field" Url="html/F_Selenium_WebDriver_Extensions_Core_ExternalLibraryLoaderBase_LoadScriptCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="ExternalLibraryLoaderBase Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_ExternalLibraryLoaderBase.htm" />
-        <HelpTOCNode Title="ExternalLibraryLoaderBase Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_ExternalLibraryLoaderBase.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="80616222-8635-4e9d-b69a-02e271413bc3" Title="HelperBase Class" Url="html/T_Selenium_WebDriver_Extensions_Core_HelperBase.htm">
-        <HelpTOCNode Title="HelperBase Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_HelperBase__ctor.htm" />
-        <HelpTOCNode Title="HelperBase Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_HelperBase.htm" />
-        <HelpTOCNode Id="cf0b4940-2575-4729-83ca-7bf4f8e808a2" Title="HelperBase Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_HelperBase.htm">
-          <HelpTOCNode Title="Driver Property " Url="html/P_Selenium_WebDriver_Extensions_Core_HelperBase_Driver.htm" />
-          <HelpTOCNode Title="WebElement Property " Url="html/P_Selenium_WebDriver_Extensions_Core_HelperBase_WebElement.htm" />
+        <HelpTOCNode Id="7a2bba35-9451-48b0-8413-bd765df22c26" Title="ILoader Properties" Url="html/Properties_T_OpenQA_Selenium_Loaders_ILoader.htm">
+          <HelpTOCNode Title="CheckScript Property " Url="html/P_OpenQA_Selenium_Loaders_ILoader_CheckScript.htm" />
+          <HelpTOCNode Title="LibraryUri Property " Url="html/P_OpenQA_Selenium_Loaders_ILoader_LibraryUri.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="98038043-4e90-4ca5-80bb-4399ecfcfbd9" Title="IdSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_IdSelector.htm">
-        <HelpTOCNode Title="IdSelector Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_IdSelector__ctor.htm" />
-        <HelpTOCNode Id="8ad92130-a5f8-4095-a5de-aa82a9fb4efa" Title="IdSelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_IdSelector.htm">
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Core_IdSelector_Equals.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_Core_IdSelector_GetHashCode.htm" />
+      <HelpTOCNode Id="780cd6d1-cd66-4710-9553-b070ef1ee673" Title="JQueryLoader Class" Url="html/T_OpenQA_Selenium_Loaders_JQueryLoader.htm">
+        <HelpTOCNode Title="JQueryLoader Constructor " Url="html/M_OpenQA_Selenium_Loaders_JQueryLoader__ctor.htm" />
+        <HelpTOCNode Id="8f31fa21-078a-4de4-b00f-3c452f7e7507" Title="JQueryLoader Methods" Url="html/Methods_T_OpenQA_Selenium_Loaders_JQueryLoader.htm">
+          <HelpTOCNode Title="LoadScript Method " Url="html/M_OpenQA_Selenium_Loaders_JQueryLoader_LoadScript.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="7be5a38a-0f17-4fdd-ab96-1ad1299bb32b" Title="IdSelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_Core_IdSelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_IdSelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_IdSelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="IdSelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_IdSelector.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="5f6e18c0-93b5-4f7c-b656-44c0c5d85cb6" Title="ILoader Interface" Url="html/T_Selenium_WebDriver_Extensions_Core_ILoader.htm">
-        <HelpTOCNode Id="80300777-0f39-4675-a210-b66f528e8c4c" Title="ILoader Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_ILoader.htm">
-          <HelpTOCNode Title="LoadScript Method " Url="html/M_Selenium_WebDriver_Extensions_Core_ILoader_LoadScript.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="21fe8c65-6c7e-4d12-a842-f9856b4bfdfc" Title="ILoader Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_ILoader.htm">
-          <HelpTOCNode Title="CheckScript Property " Url="html/P_Selenium_WebDriver_Extensions_Core_ILoader_CheckScript.htm" />
-          <HelpTOCNode Title="LibraryUri Property " Url="html/P_Selenium_WebDriver_Extensions_Core_ILoader_LibraryUri.htm" />
+        <HelpTOCNode Id="cda73f20-fc45-465c-afa1-1e42276ad357" Title="JQueryLoader Properties" Url="html/Properties_T_OpenQA_Selenium_Loaders_JQueryLoader.htm">
+          <HelpTOCNode Title="CheckScript Property " Url="html/P_OpenQA_Selenium_Loaders_JQueryLoader_CheckScript.htm" />
+          <HelpTOCNode Title="LibraryUri Property " Url="html/P_OpenQA_Selenium_Loaders_JQueryLoader_LibraryUri.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="0b4c439c-4ee7-4380-bf85-09df5e0645b3" Title="IRunner Interface" Url="html/T_Selenium_WebDriver_Extensions_Core_IRunner.htm">
-        <HelpTOCNode Id="132fa23f-2ce8-423b-934e-5f8e938bc445" Title="IRunner Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_IRunner.htm">
-          <HelpTOCNode Title="Find(T) Method " Url="html/M_Selenium_WebDriver_Extensions_Core_IRunner_Find__1.htm" />
+      <HelpTOCNode Id="3bd8fdf8-1ab4-475f-b2a1-6a6fa5a87071" Title="LoaderBase Class" Url="html/T_OpenQA_Selenium_Loaders_LoaderBase.htm">
+        <HelpTOCNode Title="LoaderBase Constructor " Url="html/M_OpenQA_Selenium_Loaders_LoaderBase__ctor.htm" />
+        <HelpTOCNode Id="dc519104-3de0-4f54-964a-6cb93dd4183d" Title="LoaderBase Fields" Url="html/Fields_T_OpenQA_Selenium_Loaders_LoaderBase.htm">
+          <HelpTOCNode Title="DetectScriptCode Field" Url="html/F_OpenQA_Selenium_Loaders_LoaderBase_DetectScriptCode.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="131881bc-cb00-46b2-89d1-2938bca4335f" Title="LoaderBase Methods" Url="html/Methods_T_OpenQA_Selenium_Loaders_LoaderBase.htm">
+          <HelpTOCNode Title="LoadScript Method " Url="html/M_OpenQA_Selenium_Loaders_LoaderBase_LoadScript.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ef8a5765-c1f2-424e-a18d-b1d26bbc5da9" Title="LoaderBase Properties" Url="html/Properties_T_OpenQA_Selenium_Loaders_LoaderBase.htm">
+          <HelpTOCNode Title="CheckScript Property " Url="html/P_OpenQA_Selenium_Loaders_LoaderBase_CheckScript.htm" />
+          <HelpTOCNode Title="LibraryUri Property " Url="html/P_OpenQA_Selenium_Loaders_LoaderBase_LibraryUri.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="357136e3-f5af-45e3-a704-3ab505930f7a" Title="ISelector Interface" Url="html/T_Selenium_WebDriver_Extensions_Core_ISelector.htm">
-        <HelpTOCNode Id="c1b6dca3-10bf-4dff-bd98-c27592a404aa" Title="ISelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_ISelector.htm">
-          <HelpTOCNode Title="Create Method " Url="html/M_Selenium_WebDriver_Extensions_Core_ISelector_Create.htm" />
+      <HelpTOCNode Id="9d834e44-c16f-4db9-9b4c-c493db66808d" Title="SizzleLoader Class" Url="html/T_OpenQA_Selenium_Loaders_SizzleLoader.htm">
+        <HelpTOCNode Title="SizzleLoader Constructor " Url="html/M_OpenQA_Selenium_Loaders_SizzleLoader__ctor.htm" />
+        <HelpTOCNode Id="d1139d55-a096-45bd-8819-26b66431dac7" Title="SizzleLoader Methods" Url="html/Methods_T_OpenQA_Selenium_Loaders_SizzleLoader.htm">
+          <HelpTOCNode Title="LoadScript Method " Url="html/M_OpenQA_Selenium_Loaders_SizzleLoader_LoadScript.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="258ef8e3-81fa-4489-b69e-d62bbbb77f6c" Title="ISelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_ISelector.htm">
-          <HelpTOCNode Title="CallFormatString Property " Url="html/P_Selenium_WebDriver_Extensions_Core_ISelector_CallFormatString.htm" />
-          <HelpTOCNode Title="RawSelector Property " Url="html/P_Selenium_WebDriver_Extensions_Core_ISelector_RawSelector.htm" />
-          <HelpTOCNode Title="RunnerType Property " Url="html/P_Selenium_WebDriver_Extensions_Core_ISelector_RunnerType.htm" />
-          <HelpTOCNode Title="Selector Property " Url="html/P_Selenium_WebDriver_Extensions_Core_ISelector_Selector.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="d94d864b-d4df-46c5-95b4-8b67e24c775a" Title="JavaScriptRunner Class" Url="html/T_Selenium_WebDriver_Extensions_Core_JavaScriptRunner.htm">
-        <HelpTOCNode Title="JavaScriptRunner Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_JavaScriptRunner__ctor.htm" />
-        <HelpTOCNode Id="a53ff2c4-1aa0-4a3c-801a-034ddcef566a" Title="JavaScriptRunner Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_JavaScriptRunner.htm">
-          <HelpTOCNode Id="1ab9fbfa-d26b-46cc-9174-b5629fb80c56" Title="Find Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_JavaScriptRunner_Find.htm">
-            <HelpTOCNode Title="Find(T) Method (IWebDriver, ISelector)" Url="html/M_Selenium_WebDriver_Extensions_Core_JavaScriptRunner_Find__1.htm" />
-            <HelpTOCNode Title="Find(T) Method (IWebDriver, String)" Url="html/M_Selenium_WebDriver_Extensions_Core_JavaScriptRunner_Find__1_1.htm" />
-          </HelpTOCNode>
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="6c134dff-c54f-4039-aeda-55d63fdc63b0" Title="LinkTextSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_LinkTextSelector.htm">
-        <HelpTOCNode Title="LinkTextSelector Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_LinkTextSelector__ctor.htm" />
-        <HelpTOCNode Id="2db781d7-65af-442f-9b68-b769d7f402ba" Title="LinkTextSelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_LinkTextSelector.htm">
-          <HelpTOCNode Title="Create Method " Url="html/M_Selenium_WebDriver_Extensions_Core_LinkTextSelector_Create.htm" />
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Core_LinkTextSelector_Equals.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_Core_LinkTextSelector_GetHashCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="dc23825c-dc4a-44ec-90fd-a7feedd6dbbe" Title="LinkTextSelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_Core_LinkTextSelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_LinkTextSelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_LinkTextSelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="LinkTextSelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_LinkTextSelector.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="e73ea080-e0fc-4ccd-b57e-da783783cfa7" Title="LinkTextSelectorBase Class" Url="html/T_Selenium_WebDriver_Extensions_Core_LinkTextSelectorBase.htm">
-        <HelpTOCNode Title="LinkTextSelectorBase Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_LinkTextSelectorBase__ctor.htm" />
-        <HelpTOCNode Title="LinkTextSelectorBase Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_LinkTextSelectorBase.htm" />
-        <HelpTOCNode Id="c668d997-c2c4-44b0-bb1d-5362bb96ed31" Title="LinkTextSelectorBase Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_LinkTextSelectorBase.htm">
-          <HelpTOCNode Title="RunnerType Property " Url="html/P_Selenium_WebDriver_Extensions_Core_LinkTextSelectorBase_RunnerType.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="29569707-853e-4f82-bea1-dbf36c989fbf" Title="LoaderBase Class" Url="html/T_Selenium_WebDriver_Extensions_Core_LoaderBase.htm">
-        <HelpTOCNode Title="LoaderBase Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_LoaderBase__ctor.htm" />
-        <HelpTOCNode Id="ef50a304-32b8-40ea-b444-feb8d4905b62" Title="LoaderBase Fields" Url="html/Fields_T_Selenium_WebDriver_Extensions_Core_LoaderBase.htm">
-          <HelpTOCNode Title="DetectScriptCode Field" Url="html/F_Selenium_WebDriver_Extensions_Core_LoaderBase_DetectScriptCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="24f11d90-f7d0-46b1-91ba-b6dd9b919089" Title="LoaderBase Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_LoaderBase.htm">
-          <HelpTOCNode Title="LoadScript Method " Url="html/M_Selenium_WebDriver_Extensions_Core_LoaderBase_LoadScript.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="035cbb95-ca30-49bf-8e76-64629858f143" Title="LoaderBase Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_LoaderBase.htm">
-          <HelpTOCNode Title="CheckScript Property " Url="html/P_Selenium_WebDriver_Extensions_Core_LoaderBase_CheckScript.htm" />
-          <HelpTOCNode Title="LibraryUri Property " Url="html/P_Selenium_WebDriver_Extensions_Core_LoaderBase_LibraryUri.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="bf249a60-a40c-43ae-ae42-726fef3efe79" Title="LoaderException Class" Url="html/T_Selenium_WebDriver_Extensions_Core_LoaderException.htm">
-        <HelpTOCNode Id="58675e96-cca2-4235-a162-2796baaaa7a9" Title="LoaderException Constructor " Url="html/Overload_Selenium_WebDriver_Extensions_Core_LoaderException__ctor.htm">
-          <HelpTOCNode Title="LoaderException Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_LoaderException__ctor.htm" />
-          <HelpTOCNode Title="LoaderException Constructor (String)" Url="html/M_Selenium_WebDriver_Extensions_Core_LoaderException__ctor_2.htm" />
-          <HelpTOCNode Title="LoaderException Constructor (SerializationInfo, StreamingContext)" Url="html/M_Selenium_WebDriver_Extensions_Core_LoaderException__ctor_1.htm" />
-          <HelpTOCNode Title="LoaderException Constructor (String, Exception)" Url="html/M_Selenium_WebDriver_Extensions_Core_LoaderException__ctor_3.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="LoaderException Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_LoaderException.htm" />
-        <HelpTOCNode Title="LoaderException Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_LoaderException.htm" />
-        <HelpTOCNode Title="LoaderException Events" Url="html/Events_T_Selenium_WebDriver_Extensions_Core_LoaderException.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="4da594dd-0a25-4846-9796-e4b3d457f830" Title="NameSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_NameSelector.htm">
-        <HelpTOCNode Title="NameSelector Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_NameSelector__ctor.htm" />
-        <HelpTOCNode Id="42c57ae5-6f31-49d6-b855-08093a43cdd1" Title="NameSelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_NameSelector.htm">
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Core_NameSelector_Equals.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_Core_NameSelector_GetHashCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="b10a2d89-5c23-4405-9d21-95ed40344831" Title="NameSelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_Core_NameSelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_NameSelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_NameSelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="NameSelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_NameSelector.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="810fb73c-35e4-42a8-b536-369365dd88f7" Title="NestedSelectorBase Class" Url="html/T_Selenium_WebDriver_Extensions_Core_NestedSelectorBase.htm">
-        <HelpTOCNode Title="NestedSelectorBase Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_NestedSelectorBase__ctor.htm" />
-        <HelpTOCNode Title="NestedSelectorBase Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_NestedSelectorBase.htm" />
-        <HelpTOCNode Id="0ae3b684-45af-4751-b8e1-f490099e020f" Title="NestedSelectorBase Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_NestedSelectorBase.htm">
-          <HelpTOCNode Title="BaseElement Property " Url="html/P_Selenium_WebDriver_Extensions_Core_NestedSelectorBase_BaseElement.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="b79c1015-57d0-4ca9-bb94-3358f11163fb" Title="ParseUtil Class" Url="html/T_Selenium_WebDriver_Extensions_Core_ParseUtil.htm">
-        <HelpTOCNode Id="2ad3f03f-b9cf-47cf-9508-fb69309f6eda" Title="ParseUtil Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_ParseUtil.htm">
-          <HelpTOCNode Title="ParseResult(T) Method " Url="html/M_Selenium_WebDriver_Extensions_Core_ParseUtil_ParseResult__1.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="8b46092a-636d-4c84-919a-f6f96370c8be" Title="PartialLinkTextSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector.htm">
-        <HelpTOCNode Title="PartialLinkTextSelector Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector__ctor.htm" />
-        <HelpTOCNode Id="ef501c6f-f450-44cb-8ffa-f6e24e424159" Title="PartialLinkTextSelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector.htm">
-          <HelpTOCNode Title="Create Method " Url="html/M_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector_Create.htm" />
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector_Equals.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector_GetHashCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="7a0f2460-0037-4948-9f0d-977882f2acb0" Title="PartialLinkTextSelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="PartialLinkTextSelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_PartialLinkTextSelector.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="07c71d3f-e174-4605-9271-c17d0240bc6a" Title="QuerySelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_QuerySelector.htm">
-        <HelpTOCNode Id="06e293e3-b55b-4326-abda-5bb292ce98c9" Title="QuerySelector Constructor " Url="html/Overload_Selenium_WebDriver_Extensions_Core_QuerySelector__ctor.htm">
-          <HelpTOCNode Title="QuerySelector Constructor (String, ISelector)" Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelector__ctor.htm" />
-          <HelpTOCNode Title="QuerySelector Constructor (String, String)" Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelector__ctor_1.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="d19b3295-3665-4fcf-b178-029f3cf36286" Title="QuerySelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_QuerySelector.htm">
-          <HelpTOCNode Title="Create Method " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelector_Create.htm" />
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelector_Equals.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelector_GetHashCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="27367896-d20a-4b28-9a8b-fad7fa3f31ae" Title="QuerySelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_Core_QuerySelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="cc5a45e2-c058-41e7-b32f-ad83eb2a4e72" Title="QuerySelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_QuerySelector.htm">
-          <HelpTOCNode Title="BaseSelector Property " Url="html/P_Selenium_WebDriver_Extensions_Core_QuerySelector_BaseSelector.htm" />
-          <HelpTOCNode Title="RunnerType Property " Url="html/P_Selenium_WebDriver_Extensions_Core_QuerySelector_RunnerType.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="905f0f17-e6f5-409c-913c-5fb7dbb5019b" Title="QuerySelectorHelper Class" Url="html/T_Selenium_WebDriver_Extensions_Core_QuerySelectorHelper.htm">
-        <HelpTOCNode Title="QuerySelectorHelper Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorHelper__ctor.htm" />
-        <HelpTOCNode Id="9601a3b1-f8a6-4aac-af4b-f6c204c0f5e4" Title="QuerySelectorHelper Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_QuerySelectorHelper.htm">
-          <HelpTOCNode Title="CheckSupport Method " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorHelper_CheckSupport.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="QuerySelectorHelper Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_QuerySelectorHelper.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="33719530-257b-495d-bd2e-9d052a21a888" Title="QuerySelectorLoader Class" Url="html/T_Selenium_WebDriver_Extensions_Core_QuerySelectorLoader.htm">
-        <HelpTOCNode Title="QuerySelectorLoader Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorLoader__ctor.htm" />
-        <HelpTOCNode Id="fcef0b8f-af41-4802-994a-2953bee88c8d" Title="QuerySelectorLoader Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_QuerySelectorLoader.htm">
-          <HelpTOCNode Title="LoadScript Method " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorLoader_LoadScript.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="881a8519-e51f-4bf1-a043-f8c91471bac6" Title="QuerySelectorLoader Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_QuerySelectorLoader.htm">
-          <HelpTOCNode Title="CheckScript Property " Url="html/P_Selenium_WebDriver_Extensions_Core_QuerySelectorLoader_CheckScript.htm" />
-          <HelpTOCNode Title="LibraryUri Property " Url="html/P_Selenium_WebDriver_Extensions_Core_QuerySelectorLoader_LibraryUri.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="b4a5e395-62c3-4987-97ff-662461a04a76" Title="QuerySelectorNotSupportedException Class" Url="html/T_Selenium_WebDriver_Extensions_Core_QuerySelectorNotSupportedException.htm">
-        <HelpTOCNode Id="7953e75b-e97a-4c28-a0d2-5ca9af456570" Title="QuerySelectorNotSupportedException Constructor " Url="html/Overload_Selenium_WebDriver_Extensions_Core_QuerySelectorNotSupportedException__ctor.htm">
-          <HelpTOCNode Title="QuerySelectorNotSupportedException Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorNotSupportedException__ctor.htm" />
-          <HelpTOCNode Title="QuerySelectorNotSupportedException Constructor (String)" Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorNotSupportedException__ctor_2.htm" />
-          <HelpTOCNode Title="QuerySelectorNotSupportedException Constructor (SerializationInfo, StreamingContext)" Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorNotSupportedException__ctor_1.htm" />
-          <HelpTOCNode Title="QuerySelectorNotSupportedException Constructor (String, Exception)" Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorNotSupportedException__ctor_3.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="QuerySelectorNotSupportedException Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_QuerySelectorNotSupportedException.htm" />
-        <HelpTOCNode Title="QuerySelectorNotSupportedException Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_QuerySelectorNotSupportedException.htm" />
-        <HelpTOCNode Title="QuerySelectorNotSupportedException Events" Url="html/Events_T_Selenium_WebDriver_Extensions_Core_QuerySelectorNotSupportedException.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="02cd086c-606b-4125-922e-28744fe0706d" Title="QuerySelectorRunner Class" Url="html/T_Selenium_WebDriver_Extensions_Core_QuerySelectorRunner.htm">
-        <HelpTOCNode Title="QuerySelectorRunner Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorRunner__ctor.htm" />
-        <HelpTOCNode Id="b8a9dc53-cf27-47c2-8b81-872b1cfef185" Title="QuerySelectorRunner Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_QuerySelectorRunner.htm">
-          <HelpTOCNode Title="Find(T) Method " Url="html/M_Selenium_WebDriver_Extensions_Core_QuerySelectorRunner_Find__1.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="94b02482-0d4f-4221-964f-4d16ed9cf0b7" Title="SelectorBase Class" Url="html/T_Selenium_WebDriver_Extensions_Core_SelectorBase.htm">
-        <HelpTOCNode Title="SelectorBase Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_SelectorBase__ctor.htm" />
-        <HelpTOCNode Id="c527e313-3c11-4f6e-bff1-1c3a8da2c39c" Title="SelectorBase Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_SelectorBase.htm">
-          <HelpTOCNode Title="Create Method " Url="html/M_Selenium_WebDriver_Extensions_Core_SelectorBase_Create.htm" />
-          <HelpTOCNode Title="ToString Method " Url="html/M_Selenium_WebDriver_Extensions_Core_SelectorBase_ToString.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="00e9ce4f-d041-4148-be07-996667bb1472" Title="SelectorBase Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_SelectorBase.htm">
-          <HelpTOCNode Title="CallFormatString Property " Url="html/P_Selenium_WebDriver_Extensions_Core_SelectorBase_CallFormatString.htm" />
-          <HelpTOCNode Title="RawSelector Property " Url="html/P_Selenium_WebDriver_Extensions_Core_SelectorBase_RawSelector.htm" />
-          <HelpTOCNode Title="RunnerType Property " Url="html/P_Selenium_WebDriver_Extensions_Core_SelectorBase_RunnerType.htm" />
-          <HelpTOCNode Title="Selector Property " Url="html/P_Selenium_WebDriver_Extensions_Core_SelectorBase_Selector.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="48f5cf34-8231-4173-8298-bfad0531b406" Title="StringExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_Core_StringExtensions.htm">
-        <HelpTOCNode Id="45272283-d40e-4bc4-ae81-b3f150382952" Title="StringExtensions Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_StringExtensions.htm">
-          <HelpTOCNode Title="IsNullOrWhiteSpace Method " Url="html/M_Selenium_WebDriver_Extensions_Core_StringExtensions_IsNullOrWhiteSpace.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="95830984-f267-4ec2-80b0-8868108839d0" Title="TagNameSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_TagNameSelector.htm">
-        <HelpTOCNode Title="TagNameSelector Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_TagNameSelector__ctor.htm" />
-        <HelpTOCNode Id="ab49b7b3-8477-4c1f-977c-0419c985f69c" Title="TagNameSelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_TagNameSelector.htm">
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Core_TagNameSelector_Equals.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_Core_TagNameSelector_GetHashCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="187993c7-6290-451a-8d41-ecbc412cdcb1" Title="TagNameSelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_Core_TagNameSelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_TagNameSelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_TagNameSelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="TagNameSelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_TagNameSelector.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="845d87e1-a2cb-4956-bec6-e913fbf3d116" Title="TypeArgumentException Class" Url="html/T_Selenium_WebDriver_Extensions_Core_TypeArgumentException.htm">
-        <HelpTOCNode Id="a7f525f4-0b0e-48b2-885f-916fde79011e" Title="TypeArgumentException Constructor " Url="html/Overload_Selenium_WebDriver_Extensions_Core_TypeArgumentException__ctor.htm">
-          <HelpTOCNode Title="TypeArgumentException Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_TypeArgumentException__ctor.htm" />
-          <HelpTOCNode Title="TypeArgumentException Constructor (String)" Url="html/M_Selenium_WebDriver_Extensions_Core_TypeArgumentException__ctor_2.htm" />
-          <HelpTOCNode Title="TypeArgumentException Constructor (SerializationInfo, StreamingContext)" Url="html/M_Selenium_WebDriver_Extensions_Core_TypeArgumentException__ctor_1.htm" />
-          <HelpTOCNode Title="TypeArgumentException Constructor (String, Exception)" Url="html/M_Selenium_WebDriver_Extensions_Core_TypeArgumentException__ctor_3.htm" />
-          <HelpTOCNode Title="TypeArgumentException Constructor (String, String)" Url="html/M_Selenium_WebDriver_Extensions_Core_TypeArgumentException__ctor_4.htm" />
-          <HelpTOCNode Title="TypeArgumentException Constructor (String, String, Exception)" Url="html/M_Selenium_WebDriver_Extensions_Core_TypeArgumentException__ctor_5.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="TypeArgumentException Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_TypeArgumentException.htm" />
-        <HelpTOCNode Title="TypeArgumentException Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_TypeArgumentException.htm" />
-        <HelpTOCNode Title="TypeArgumentException Events" Url="html/Events_T_Selenium_WebDriver_Extensions_Core_TypeArgumentException.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="1a438cce-3675-4ead-807c-5ba0648e5a77" Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_Core_WebDriverExtensions.htm">
-        <HelpTOCNode Id="d1f38f3a-f862-48d3-8b85-a9fe87a0b79a" Title="WebDriverExtensions Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_WebDriverExtensions.htm">
-          <HelpTOCNode Title="CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
-          <HelpTOCNode Id="230647ca-b96a-4cbe-a9aa-1ad9fac81db0" Title="ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_ExecuteScript.htm">
-            <HelpTOCNode Title="ExecuteScript Method (IWebDriver, String, Object[])" Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_ExecuteScript.htm" />
-            <HelpTOCNode Title="ExecuteScript(T) Method (IWebDriver, String, Object[])" Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_ExecuteScript__1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_FindElement.htm" />
-          <HelpTOCNode Title="FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_FindElements.htm" />
-          <HelpTOCNode Title="LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_LoadExternalLibrary.htm" />
-          <HelpTOCNode Title="QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebDriverExtensions_QuerySelector.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="53aee35f-c369-4d93-90ca-3627fb0976d2" Title="WebElement Class" Url="html/T_Selenium_WebDriver_Extensions_Core_WebElement.htm">
-        <HelpTOCNode Title="WebElement Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement__ctor.htm" />
-        <HelpTOCNode Id="aeaddab5-88d6-49f0-bc2e-5831b6b72251" Title="WebElement Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_WebElement.htm">
-          <HelpTOCNode Title="Clear Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_Clear.htm" />
-          <HelpTOCNode Title="Click Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_Click.htm" />
-          <HelpTOCNode Id="ffb155fd-bb84-4471-ad6a-682dc920b312" Title="FindElement Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_WebElement_FindElement.htm">
-            <HelpTOCNode Title="FindElement Method (By)" Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_FindElement.htm" />
-            <HelpTOCNode Title="FindElement Method (ISelector)" Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_FindElement_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="f467cb52-ae78-4218-94ed-64f46ffbefca" Title="FindElements Method " Url="html/Overload_Selenium_WebDriver_Extensions_Core_WebElement_FindElements.htm">
-            <HelpTOCNode Title="FindElements Method (By)" Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_FindElements.htm" />
-            <HelpTOCNode Title="FindElements Method (ISelector)" Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_FindElements_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="GetAttribute Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_GetAttribute.htm" />
-          <HelpTOCNode Title="GetCssValue Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_GetCssValue.htm" />
-          <HelpTOCNode Title="SendKeys Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_SendKeys.htm" />
-          <HelpTOCNode Title="Submit Method " Url="html/M_Selenium_WebDriver_Extensions_Core_WebElement_Submit.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="bec56398-c0c2-4488-aa97-da284256a347" Title="WebElement Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_WebElement.htm">
-          <HelpTOCNode Title="Displayed Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_Displayed.htm" />
-          <HelpTOCNode Title="Enabled Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_Enabled.htm" />
-          <HelpTOCNode Title="InnerElement Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_InnerElement.htm" />
-          <HelpTOCNode Title="Location Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_Location.htm" />
-          <HelpTOCNode Title="Path Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_Path.htm" />
-          <HelpTOCNode Title="Selected Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_Selected.htm" />
-          <HelpTOCNode Title="Selector Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_Selector.htm" />
-          <HelpTOCNode Title="SelectorResultIndex Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_SelectorResultIndex.htm" />
-          <HelpTOCNode Title="Size Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_Size.htm" />
-          <HelpTOCNode Title="TagName Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_TagName.htm" />
-          <HelpTOCNode Title="Text Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_Text.htm" />
-          <HelpTOCNode Title="WrappedDriver Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_WrappedDriver.htm" />
-          <HelpTOCNode Title="XPath Property " Url="html/P_Selenium_WebDriver_Extensions_Core_WebElement_XPath.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="ba1efe40-b58f-4c70-95f7-1584c039ecd1" Title="XPathSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Core_XPathSelector.htm">
-        <HelpTOCNode Title="XPathSelector Constructor " Url="html/M_Selenium_WebDriver_Extensions_Core_XPathSelector__ctor.htm" />
-        <HelpTOCNode Id="0d5be831-8405-48b2-86eb-49b5ae7c7601" Title="XPathSelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Core_XPathSelector.htm">
-          <HelpTOCNode Title="Create Method " Url="html/M_Selenium_WebDriver_Extensions_Core_XPathSelector_Create.htm" />
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Core_XPathSelector_Equals.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_Core_XPathSelector_GetHashCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="fa10ee7b-5494-43cd-a952-d97939bf3e91" Title="XPathSelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_Core_XPathSelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_XPathSelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_Core_XPathSelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="b375ecbe-afc3-4b08-a808-4807fe2d9d7f" Title="XPathSelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Core_XPathSelector.htm">
-          <HelpTOCNode Title="RunnerType Property " Url="html/P_Selenium_WebDriver_Extensions_Core_XPathSelector_RunnerType.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="df4f8ce0-fb79-4a67-805d-023ecf5a8be9" Title="Selenium.WebDriver.Extensions.JQuery" Url="html/N_Selenium_WebDriver_Extensions_JQuery.htm">
-      <HelpTOCNode Id="73b05fa5-0080-4da5-b7d2-ff556ffab8c4" Title="By Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_By.htm">
-        <HelpTOCNode Title="By Constructor " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By__ctor.htm" />
-        <HelpTOCNode Id="91251fde-29b3-4652-85af-0745496fc691" Title="By Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_By.htm">
-          <HelpTOCNode Title="ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_ClassName.htm" />
-          <HelpTOCNode Title="CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_CssSelector.htm" />
-          <HelpTOCNode Title="Id Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_Id.htm" />
-          <HelpTOCNode Title="JQuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_JQuerySelector.htm" />
-          <HelpTOCNode Id="f4f29f0d-7b7a-4e35-b1b4-3074637d60ab" Title="LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_LinkText.htm">
-            <HelpTOCNode Title="LinkText Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_LinkText.htm" />
-            <HelpTOCNode Title="LinkText Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_LinkText_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="Name Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_Name.htm" />
-          <HelpTOCNode Id="901b207a-14bf-4508-8737-b4a692b5191f" Title="PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_PartialLinkText.htm">
-            <HelpTOCNode Title="PartialLinkText Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_PartialLinkText.htm" />
-            <HelpTOCNode Title="PartialLinkText Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_PartialLinkText_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="4c7d92d9-57e3-4bd9-9c21-a38cfa7fee03" Title="QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_By_QuerySelector.htm">
-            <HelpTOCNode Title="QuerySelector Method (String, ISelector)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_QuerySelector.htm" />
-            <HelpTOCNode Title="QuerySelector Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_QuerySelector_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="TagName Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_TagName.htm" />
-          <HelpTOCNode Title="XPath Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_By_XPath.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="By Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_JQuery_By.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="a68526f8-d21d-44c4-bbd1-b76fc9d0abd1" Title="ChainJQueryHelper Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper.htm">
-        <HelpTOCNode Title="ChainJQueryHelper Constructor " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper__ctor.htm" />
-        <HelpTOCNode Id="54f1aa82-9923-4f40-9262-8e734db28cd3" Title="ChainJQueryHelper Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper.htm">
-          <HelpTOCNode Title="AddClass Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_AddClass.htm" />
-          <HelpTOCNode Id="3e20ab8e-83e0-4d26-9672-d3484c6d4892" Title="Attribute Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Attribute.htm">
-            <HelpTOCNode Title="Attribute Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Attribute.htm" />
-            <HelpTOCNode Title="Attribute Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Attribute_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="Blur Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Blur.htm" />
-          <HelpTOCNode Title="Change Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Change.htm" />
-          <HelpTOCNode Title="Click Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Click.htm" />
-          <HelpTOCNode Title="Count Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Count.htm" />
-          <HelpTOCNode Id="bb6059a2-68e9-41c0-94ee-436bdccfaa2f" Title="Css Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Css.htm">
-            <HelpTOCNode Title="Css Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Css.htm" />
-            <HelpTOCNode Title="Css Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Css_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="f0a60fee-039e-4be9-9765-0534272a8b9f" Title="Data Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Data.htm">
-            <HelpTOCNode Title="Data Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Data.htm" />
-            <HelpTOCNode Title="Data(T) Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Data__1.htm" />
-            <HelpTOCNode Title="Data Method (String, Boolean)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Data_1.htm" />
-            <HelpTOCNode Title="Data Method (String, Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Data_2.htm" />
-            <HelpTOCNode Title="Data Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Data_3.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="DoubleClick Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_DoubleClick.htm" />
-          <HelpTOCNode Title="Empty Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Empty.htm" />
-          <HelpTOCNode Id="ef5d82a9-5f39-4abf-b3a6-efa185cf5c99" Title="FadeIn Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeIn.htm">
-            <HelpTOCNode Title="FadeIn Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeIn.htm" />
-            <HelpTOCNode Title="FadeIn Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeIn_2.htm" />
-            <HelpTOCNode Title="FadeIn Method (Duration)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeIn_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="1c6feb79-f62e-4bb4-b885-91a66fadcc25" Title="FadeOut Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeOut.htm">
-            <HelpTOCNode Title="FadeOut Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeOut.htm" />
-            <HelpTOCNode Title="FadeOut Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeOut_2.htm" />
-            <HelpTOCNode Title="FadeOut Method (Duration)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeOut_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="74426b9e-1f5b-4d49-bbba-d64502d42b00" Title="FadeTo Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeTo.htm">
-            <HelpTOCNode Title="FadeTo Method (Decimal, Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeTo_1.htm" />
-            <HelpTOCNode Title="FadeTo Method (Duration, Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeTo.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="2063c592-67aa-4d99-84be-d3ed07210620" Title="FadeToggle Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeToggle.htm">
-            <HelpTOCNode Title="FadeToggle Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeToggle.htm" />
-            <HelpTOCNode Title="FadeToggle Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeToggle_2.htm" />
-            <HelpTOCNode Title="FadeToggle Method (Duration)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_FadeToggle_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="Focus Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Focus.htm" />
-          <HelpTOCNode Title="HasClass Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_HasClass.htm" />
-          <HelpTOCNode Id="b08ef372-b982-47d4-b578-e689d2856cfd" Title="Height Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Height.htm">
-            <HelpTOCNode Title="Height Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Height.htm" />
-            <HelpTOCNode Title="Height Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Height_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="72addc80-ee02-4156-ba0d-230b2a5f3579" Title="Hide Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Hide.htm">
-            <HelpTOCNode Title="Hide Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Hide.htm" />
-            <HelpTOCNode Title="Hide Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Hide_2.htm" />
-            <HelpTOCNode Title="Hide Method (Duration)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Hide_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="57bf6834-8f51-4e6d-ba0d-f863973d23aa" Title="Html Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Html.htm">
-            <HelpTOCNode Title="Html Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Html.htm" />
-            <HelpTOCNode Title="Html Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Html_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="dcbda76b-7fa4-41e8-8f04-0af6d993bb25" Title="InnerHeight Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_InnerHeight.htm">
-            <HelpTOCNode Title="InnerHeight Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_InnerHeight.htm" />
-            <HelpTOCNode Title="InnerHeight Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_InnerHeight_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="49c2b472-1098-4b2b-9d2b-7f929f528773" Title="InnerWidth Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_InnerWidth.htm">
-            <HelpTOCNode Title="InnerWidth Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_InnerWidth.htm" />
-            <HelpTOCNode Title="InnerWidth Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_InnerWidth_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="KeyDown Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_KeyDown.htm" />
-          <HelpTOCNode Title="KeyPress Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_KeyPress.htm" />
-          <HelpTOCNode Title="KeyUp Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_KeyUp.htm" />
-          <HelpTOCNode Title="MouseDown Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_MouseDown.htm" />
-          <HelpTOCNode Title="MouseEnter Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_MouseEnter.htm" />
-          <HelpTOCNode Title="MouseLeave Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_MouseLeave.htm" />
-          <HelpTOCNode Title="MouseMove Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_MouseMove.htm" />
-          <HelpTOCNode Title="MouseOut Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_MouseOut.htm" />
-          <HelpTOCNode Title="MouseOver Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_MouseOver.htm" />
-          <HelpTOCNode Title="MouseUp Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_MouseUp.htm" />
-          <HelpTOCNode Title="Offset Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Offset.htm" />
-          <HelpTOCNode Id="12f06fee-39a3-4f51-aad4-5be6cae95b8d" Title="OuterHeight Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_OuterHeight.htm">
-            <HelpTOCNode Title="OuterHeight Method (Boolean)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_OuterHeight.htm" />
-            <HelpTOCNode Title="OuterHeight Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_OuterHeight_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="9d862ae4-4fb0-4487-a30b-43815250125c" Title="OuterWidth Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_OuterWidth.htm">
-            <HelpTOCNode Title="OuterWidth Method (Boolean)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_OuterWidth.htm" />
-            <HelpTOCNode Title="OuterWidth Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_OuterWidth_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="Position Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Position.htm" />
-          <HelpTOCNode Id="4a3b6154-f6e9-41ac-8e9d-83e34a3a60ef" Title="Property Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Property.htm">
-            <HelpTOCNode Title="Property Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Property.htm" />
-            <HelpTOCNode Title="Property(T) Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Property__1.htm" />
-            <HelpTOCNode Title="Property Method (String, Boolean)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Property_1.htm" />
-            <HelpTOCNode Title="Property Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Property_2.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="9253089e-6489-455f-b074-08ae7e54a696" Title="Remove Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Remove.htm">
-            <HelpTOCNode Title="Remove Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Remove.htm" />
-            <HelpTOCNode Title="Remove Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Remove_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="RemoveClass Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_RemoveClass.htm" />
-          <HelpTOCNode Title="RemoveData Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_RemoveData.htm" />
-          <HelpTOCNode Title="Resize Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Resize.htm" />
-          <HelpTOCNode Title="Scroll Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Scroll.htm" />
-          <HelpTOCNode Id="5c4b3726-facb-40bc-9000-bb1c4212e32f" Title="ScrollLeft Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_ScrollLeft.htm">
-            <HelpTOCNode Title="ScrollLeft Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_ScrollLeft.htm" />
-            <HelpTOCNode Title="ScrollLeft Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_ScrollLeft_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="c48cd9b6-a2c0-4ec7-bb86-7576ec80daac" Title="ScrollTop Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_ScrollTop.htm">
-            <HelpTOCNode Title="ScrollTop Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_ScrollTop.htm" />
-            <HelpTOCNode Title="ScrollTop Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_ScrollTop_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="Serialized Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Serialized.htm" />
-          <HelpTOCNode Title="SerializedArray Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SerializedArray.htm" />
-          <HelpTOCNode Id="7ce16c54-ae94-455c-a718-b4a46438dba7" Title="Show Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Show.htm">
-            <HelpTOCNode Title="Show Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Show.htm" />
-            <HelpTOCNode Title="Show Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Show_2.htm" />
-            <HelpTOCNode Title="Show Method (Duration)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Show_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="ae19d530-c883-49a7-9485-3ffe5ddb4140" Title="SlideDown Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideDown.htm">
-            <HelpTOCNode Title="SlideDown Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideDown.htm" />
-            <HelpTOCNode Title="SlideDown Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideDown_2.htm" />
-            <HelpTOCNode Title="SlideDown Method (Duration)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideDown_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="2b5ff03e-f54d-4218-ae9a-fa0a64eae824" Title="SlideToggle Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideToggle.htm">
-            <HelpTOCNode Title="SlideToggle Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideToggle.htm" />
-            <HelpTOCNode Title="SlideToggle Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideToggle_2.htm" />
-            <HelpTOCNode Title="SlideToggle Method (Duration)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideToggle_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="f5a5d95c-6d45-4b6b-8f89-6f2edd5cbcd5" Title="SlideUp Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideUp.htm">
-            <HelpTOCNode Title="SlideUp Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideUp.htm" />
-            <HelpTOCNode Title="SlideUp Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideUp_2.htm" />
-            <HelpTOCNode Title="SlideUp Method (Duration)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_SlideUp_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="cef7f5ea-4f2e-49f8-89dc-689ccd5a136e" Title="Text Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Text.htm">
-            <HelpTOCNode Title="Text Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Text.htm" />
-            <HelpTOCNode Title="Text Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Text_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="9da65c0c-5d72-4924-8f37-d2ea881acc50" Title="Toggle Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Toggle.htm">
-            <HelpTOCNode Title="Toggle Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Toggle.htm" />
-            <HelpTOCNode Title="Toggle Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Toggle_2.htm" />
-            <HelpTOCNode Title="Toggle Method (Duration)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Toggle_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="6c32a8ba-6a11-4c5c-bf89-8762656c597f" Title="ToggleClass Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_ToggleClass.htm">
-            <HelpTOCNode Title="ToggleClass Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_ToggleClass.htm" />
-            <HelpTOCNode Title="ToggleClass Method (String, Boolean)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_ToggleClass_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="Trigger Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Trigger.htm" />
-          <HelpTOCNode Title="TriggerHandler Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_TriggerHandler.htm" />
-          <HelpTOCNode Id="9a76df6b-bd69-41cf-a710-995b57bdcc94" Title="Value Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Value.htm">
-            <HelpTOCNode Title="Value Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Value.htm" />
-            <HelpTOCNode Title="Value Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Value_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="8c83d3f2-3474-4b00-ac5c-29585f91f791" Title="Width Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Width.htm">
-            <HelpTOCNode Title="Width Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Width.htm" />
-            <HelpTOCNode Title="Width Method (Decimal)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper_Width_1.htm" />
-          </HelpTOCNode>
-        </HelpTOCNode>
-        <HelpTOCNode Title="ChainJQueryHelper Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_JQuery_ChainJQueryHelper.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Title="Duration Enumeration" Url="html/T_Selenium_WebDriver_Extensions_JQuery_Duration.htm" />
-      <HelpTOCNode Id="655c8d3f-b321-404d-a629-a1531e2ae5d8" Title="JQueryHelper Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_JQueryHelper.htm">
-        <HelpTOCNode Title="JQueryHelper Constructor " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQueryHelper__ctor.htm" />
-        <HelpTOCNode Id="a1d7da0d-f13e-4a3e-a4ef-305897ca820e" Title="JQueryHelper Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_JQueryHelper.htm">
-          <HelpTOCNode Id="75397d3c-3a85-4d8f-8c7e-295f5b8f5839" Title="Load Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_JQueryHelper_Load.htm">
-            <HelpTOCNode Title="Load Method (String, Nullable(TimeSpan))" Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQueryHelper_Load.htm" />
-            <HelpTOCNode Title="Load Method (Uri, Nullable(TimeSpan))" Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQueryHelper_Load_1.htm" />
-          </HelpTOCNode>
-        </HelpTOCNode>
-        <HelpTOCNode Title="JQueryHelper Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_JQuery_JQueryHelper.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="c92d2b36-779f-480f-b306-11b291e930c1" Title="JQueryLoader Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_JQueryLoader.htm">
-        <HelpTOCNode Title="JQueryLoader Constructor " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQueryLoader__ctor.htm" />
-        <HelpTOCNode Id="5ae9aae4-5501-4c85-972d-573db0d33b87" Title="JQueryLoader Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_JQueryLoader.htm">
-          <HelpTOCNode Title="LoadScript Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQueryLoader_LoadScript.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="77b46b89-3974-4c73-aa0c-f66d3c805e45" Title="JQueryLoader Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_JQuery_JQueryLoader.htm">
-          <HelpTOCNode Title="CheckScript Property " Url="html/P_Selenium_WebDriver_Extensions_JQuery_JQueryLoader_CheckScript.htm" />
-          <HelpTOCNode Title="LibraryUri Property " Url="html/P_Selenium_WebDriver_Extensions_JQuery_JQueryLoader_LibraryUri.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="b5dbc6ff-08a8-44be-896c-4a6637720d18" Title="JQueryRunner Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_JQueryRunner.htm">
-        <HelpTOCNode Title="JQueryRunner Constructor " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQueryRunner__ctor.htm" />
-        <HelpTOCNode Id="f81e6cac-3c37-4a64-b4ac-95a22fc9b39f" Title="JQueryRunner Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_JQueryRunner.htm">
-          <HelpTOCNode Id="55cdd982-6323-4b54-a2cb-13f6c4082fd8" Title="Find Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_JQueryRunner_Find.htm">
-            <HelpTOCNode Title="Find(T) Method (IWebDriver, ISelector)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQueryRunner_Find__1.htm" />
-          </HelpTOCNode>
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="121356dc-8599-4a69-98b7-c13c21fd30a9" Title="JQuerySelector Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_JQuerySelector.htm">
-        <HelpTOCNode Title="JQuerySelector Constructor " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector__ctor.htm" />
-        <HelpTOCNode Id="7ab6de04-7313-4882-b8f9-4def444a0714" Title="JQuerySelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_JQuerySelector.htm">
-          <HelpTOCNode Id="22180909-5585-43cb-8973-a6c2a6af8298" Title="Add Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Add.htm">
-            <HelpTOCNode Title="Add Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Add.htm" />
-            <HelpTOCNode Title="Add Method (String, JQuerySelector)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Add_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="AddBack Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_AddBack.htm" />
-          <HelpTOCNode Title="AndSelf Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_AndSelf.htm" />
-          <HelpTOCNode Title="Children Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Children.htm" />
-          <HelpTOCNode Id="ef0ae542-69d1-4eb4-84d8-c806ead01526" Title="Closest Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Closest.htm">
-            <HelpTOCNode Title="Closest Method (String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Closest.htm" />
-            <HelpTOCNode Title="Closest Method (String, JQuerySelector)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Closest_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="Contents Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Contents.htm" />
-          <HelpTOCNode Title="Create Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Create.htm" />
-          <HelpTOCNode Title="End Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_End.htm" />
-          <HelpTOCNode Title="Eq Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Eq.htm" />
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Equals.htm" />
-          <HelpTOCNode Title="Filter Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Filter.htm" />
-          <HelpTOCNode Title="Find Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Find.htm" />
-          <HelpTOCNode Title="First Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_First.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_GetHashCode.htm" />
-          <HelpTOCNode Title="Has Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Has.htm" />
-          <HelpTOCNode Title="Is Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Is.htm" />
-          <HelpTOCNode Title="Last Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Last.htm" />
-          <HelpTOCNode Title="Next Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Next.htm" />
-          <HelpTOCNode Title="NextAll Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_NextAll.htm" />
-          <HelpTOCNode Title="NextUntil Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_NextUntil.htm" />
-          <HelpTOCNode Title="Not Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Not.htm" />
-          <HelpTOCNode Title="OffsetParent Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_OffsetParent.htm" />
-          <HelpTOCNode Title="Parent Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Parent.htm" />
-          <HelpTOCNode Title="Parents Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Parents.htm" />
-          <HelpTOCNode Title="ParentsUntil Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_ParentsUntil.htm" />
-          <HelpTOCNode Title="Prev Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Prev.htm" />
-          <HelpTOCNode Title="PrevAll Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_PrevAll.htm" />
-          <HelpTOCNode Title="PrevUntil Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_PrevUntil.htm" />
-          <HelpTOCNode Title="Siblings Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Siblings.htm" />
-          <HelpTOCNode Title="Slice Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Slice.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="922e5e83-0d2d-4ee8-9126-c8b992c5f1af" Title="JQuerySelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_JQuery_JQuerySelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="c6e24bc7-623a-49bf-935b-2301a4d4e554" Title="JQuerySelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_JQuery_JQuerySelector.htm">
-          <HelpTOCNode Title="CallFormatString Property " Url="html/P_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_CallFormatString.htm" />
-          <HelpTOCNode Title="Context Property " Url="html/P_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_Context.htm" />
-          <HelpTOCNode Title="JQueryVariable Property " Url="html/P_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_JQueryVariable.htm" />
-          <HelpTOCNode Title="RunnerType Property " Url="html/P_Selenium_WebDriver_Extensions_JQuery_JQuerySelector_RunnerType.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="bea2f846-8522-4d10-acd5-f6bbbb082366" Title="Position Structure" Url="html/T_Selenium_WebDriver_Extensions_JQuery_Position.htm">
-        <HelpTOCNode Title="Position Constructor " Url="html/M_Selenium_WebDriver_Extensions_JQuery_Position__ctor.htm" />
-        <HelpTOCNode Id="a4c508d0-d91d-4cfc-9d95-5fe2d19221aa" Title="Position Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_Position.htm">
-          <HelpTOCNode Id="1e2d7e0d-e8b2-4494-8637-d6d369f633c8" Title="Equals Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_Position_Equals.htm">
-            <HelpTOCNode Title="Equals Method (Object)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_Position_Equals_1.htm" />
-            <HelpTOCNode Title="Equals Method (Position)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_Position_Equals.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_Position_GetHashCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="3081024a-b9f5-4fc1-a7e1-7060b94e1165" Title="Position Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_JQuery_Position.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_JQuery_Position_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_JQuery_Position_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="25ae7001-1bf6-4d53-a936-6d17e1aea39a" Title="Position Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_JQuery_Position.htm">
-          <HelpTOCNode Title="Left Property " Url="html/P_Selenium_WebDriver_Extensions_JQuery_Position_Left.htm" />
-          <HelpTOCNode Title="Top Property " Url="html/P_Selenium_WebDriver_Extensions_JQuery_Position_Top.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="c1f57583-5228-47fc-8cd2-c960ab07f940" Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions.htm">
-        <HelpTOCNode Id="b340c404-1732-42e7-9e19-dc1eeeedd8d3" Title="WebDriverExtensions Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions.htm">
-          <HelpTOCNode Title="CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
-          <HelpTOCNode Id="ed5ea140-2578-4210-891c-caff48e3fedf" Title="ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_ExecuteScript.htm">
-            <HelpTOCNode Title="ExecuteScript Method (IWebDriver, String, Object[])" Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_ExecuteScript.htm" />
-            <HelpTOCNode Title="ExecuteScript(T) Method (IWebDriver, String, Object[])" Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_ExecuteScript__1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_FindElement.htm" />
-          <HelpTOCNode Title="FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_FindElements.htm" />
-          <HelpTOCNode Id="dd91947c-22a0-4f95-9fc5-cd79807e659d" Title="JQuery Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_JQuery.htm">
-            <HelpTOCNode Title="JQuery Method (IWebDriver)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_JQuery.htm" />
-            <HelpTOCNode Title="JQuery Method (IWebDriver, JQuerySelector)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_JQuery_1.htm" />
-            <HelpTOCNode Title="JQuery Method (IWebDriver, String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_JQuery_2.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_LoadExternalLibrary.htm" />
-          <HelpTOCNode Title="QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebDriverExtensions_QuerySelector.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="6e46ac89-e6aa-4437-b9ba-996ef0ce2060" Title="WebElementExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_JQuery_WebElementExtensions.htm">
-        <HelpTOCNode Id="eef37128-39db-4e4b-bba4-e72ed1188330" Title="WebElementExtensions Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_JQuery_WebElementExtensions.htm">
-          <HelpTOCNode Id="3371ff08-c881-42bf-b43e-524d82b741aa" Title="JQuery Method " Url="html/Overload_Selenium_WebDriver_Extensions_JQuery_WebElementExtensions_JQuery.htm">
-            <HelpTOCNode Title="JQuery Method (WebElement, JQuerySelector)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebElementExtensions_JQuery.htm" />
-            <HelpTOCNode Title="JQuery Method (WebElement, String)" Url="html/M_Selenium_WebDriver_Extensions_JQuery_WebElementExtensions_JQuery_1.htm" />
-          </HelpTOCNode>
-        </HelpTOCNode>
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="47b01bb5-fc4a-4470-ab58-734398a9802a" Title="Selenium.WebDriver.Extensions.Sizzle" Url="html/N_Selenium_WebDriver_Extensions_Sizzle.htm">
-      <HelpTOCNode Id="e263b5fb-f480-4782-bbd3-e6443984b894" Title="By Class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_By.htm">
-        <HelpTOCNode Title="By Constructor " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By__ctor.htm" />
-        <HelpTOCNode Id="3013c4c7-7361-413a-91e4-455a0b7e827b" Title="By Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Sizzle_By.htm">
-          <HelpTOCNode Title="ClassName Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_ClassName.htm" />
-          <HelpTOCNode Title="CssSelector Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_CssSelector.htm" />
-          <HelpTOCNode Title="Id Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_Id.htm" />
-          <HelpTOCNode Id="9095eb4b-4123-4e23-b24f-e0c3e6a637b3" Title="LinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_LinkText.htm">
-            <HelpTOCNode Title="LinkText Method (String)" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_LinkText.htm" />
-            <HelpTOCNode Title="LinkText Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_LinkText_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="Name Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_Name.htm" />
-          <HelpTOCNode Id="8120e194-e4b1-4f20-805f-27cafed666c2" Title="PartialLinkText Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_PartialLinkText.htm">
-            <HelpTOCNode Title="PartialLinkText Method (String)" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_PartialLinkText.htm" />
-            <HelpTOCNode Title="PartialLinkText Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_PartialLinkText_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Id="61b8fd3c-eba4-4098-ba13-b9224db6a415" Title="QuerySelector Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_By_QuerySelector.htm">
-            <HelpTOCNode Title="QuerySelector Method (String, ISelector)" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_QuerySelector.htm" />
-            <HelpTOCNode Title="QuerySelector Method (String, String)" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_QuerySelector_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="SizzleSelector Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_SizzleSelector.htm" />
-          <HelpTOCNode Title="TagName Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_TagName.htm" />
-          <HelpTOCNode Title="XPath Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_By_XPath.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="By Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Sizzle_By.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="edee7ffd-14a9-431b-b753-a5c88295ac90" Title="SizzleHelper Class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_SizzleHelper.htm">
-        <HelpTOCNode Title="SizzleHelper Constructor " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleHelper__ctor.htm" />
-        <HelpTOCNode Id="d6fd1af7-f13e-4a2f-87c0-32478e03c4ff" Title="SizzleHelper Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Sizzle_SizzleHelper.htm">
-          <HelpTOCNode Id="c40c5216-263f-4113-8392-a24fe045d0ed" Title="Load Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_SizzleHelper_Load.htm">
-            <HelpTOCNode Title="Load Method (String, Nullable(TimeSpan))" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleHelper_Load.htm" />
-            <HelpTOCNode Title="Load Method (Uri, Nullable(TimeSpan))" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleHelper_Load_1.htm" />
-          </HelpTOCNode>
-        </HelpTOCNode>
-        <HelpTOCNode Title="SizzleHelper Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Sizzle_SizzleHelper.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="bb0ffd47-1c5f-4bbc-be42-7acc8a94411a" Title="SizzleLoader Class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_SizzleLoader.htm">
-        <HelpTOCNode Title="SizzleLoader Constructor " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleLoader__ctor.htm" />
-        <HelpTOCNode Id="2a1d04ad-1970-42b3-98b7-6f8e44332ad3" Title="SizzleLoader Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Sizzle_SizzleLoader.htm">
-          <HelpTOCNode Title="LoadScript Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleLoader_LoadScript.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="e2901ad0-562d-4a64-ab9e-44447a8e6789" Title="SizzleLoader Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Sizzle_SizzleLoader.htm">
-          <HelpTOCNode Title="CheckScript Property " Url="html/P_Selenium_WebDriver_Extensions_Sizzle_SizzleLoader_CheckScript.htm" />
-          <HelpTOCNode Title="LibraryUri Property " Url="html/P_Selenium_WebDriver_Extensions_Sizzle_SizzleLoader_LibraryUri.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="6096ebbb-22e7-403e-98da-80c5290f548d" Title="SizzleRunner Class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_SizzleRunner.htm">
-        <HelpTOCNode Title="SizzleRunner Constructor " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleRunner__ctor.htm" />
-        <HelpTOCNode Id="c7b55048-5111-42a2-b78d-76020d324df9" Title="SizzleRunner Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Sizzle_SizzleRunner.htm">
-          <HelpTOCNode Id="44c069e7-cee5-4816-b448-a673e778a47b" Title="Find Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_SizzleRunner_Find.htm">
-            <HelpTOCNode Title="Find(T) Method (IWebDriver, ISelector)" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleRunner_Find__1.htm" />
-          </HelpTOCNode>
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="bd5b16c9-cd66-4d58-a04a-59f269a30d18" Title="SizzleSelector Class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector.htm">
-        <HelpTOCNode Title="SizzleSelector Constructor " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector__ctor.htm" />
-        <HelpTOCNode Id="6c3b3f3e-6dcb-49eb-bce1-18533a578d15" Title="SizzleSelector Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector.htm">
-          <HelpTOCNode Title="Create Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector_Create.htm" />
-          <HelpTOCNode Title="Equals Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector_Equals.htm" />
-          <HelpTOCNode Title="GetHashCode Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector_GetHashCode.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="a9bf2fa7-82f1-425f-b536-b09e7b5c7979" Title="SizzleSelector Operators" Url="html/Operators_T_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector.htm">
-          <HelpTOCNode Title="Equality Operator " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector_op_Equality.htm" />
-          <HelpTOCNode Title="Inequality Operator " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector_op_Inequality.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="00d56bb5-7c67-4b6d-b952-9bbafc942c81" Title="SizzleSelector Properties" Url="html/Properties_T_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector.htm">
-          <HelpTOCNode Title="Context Property " Url="html/P_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector_Context.htm" />
-          <HelpTOCNode Title="RunnerType Property " Url="html/P_Selenium_WebDriver_Extensions_Sizzle_SizzleSelector_RunnerType.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="2896434a-0b0d-40f2-a000-4efcba8a77dc" Title="WebDriverExtensions Class" Url="html/T_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions.htm">
-        <HelpTOCNode Id="dd992e66-e3bc-4434-af34-2226bface12c" Title="WebDriverExtensions Methods" Url="html/Methods_T_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions.htm">
-          <HelpTOCNode Title="CheckSelectorPrerequisites Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_CheckSelectorPrerequisites.htm" />
-          <HelpTOCNode Id="26429ba6-c88c-42b2-a234-4d8a1cefefbc" Title="ExecuteScript Method " Url="html/Overload_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_ExecuteScript.htm">
-            <HelpTOCNode Title="ExecuteScript Method (IWebDriver, String, Object[])" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_ExecuteScript.htm" />
-            <HelpTOCNode Title="ExecuteScript(T) Method (IWebDriver, String, Object[])" Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_ExecuteScript__1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="FindElement Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_FindElement.htm" />
-          <HelpTOCNode Title="FindElements Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_FindElements.htm" />
-          <HelpTOCNode Title="LoadExternalLibrary Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_LoadExternalLibrary.htm" />
-          <HelpTOCNode Title="QuerySelector Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_QuerySelector.htm" />
-          <HelpTOCNode Title="Sizzle Method " Url="html/M_Selenium_WebDriver_Extensions_Sizzle_WebDriverExtensions_Sizzle.htm" />
+        <HelpTOCNode Id="519853eb-a766-4577-814d-d2982709d310" Title="SizzleLoader Properties" Url="html/Properties_T_OpenQA_Selenium_Loaders_SizzleLoader.htm">
+          <HelpTOCNode Title="CheckScript Property " Url="html/P_OpenQA_Selenium_Loaders_SizzleLoader_CheckScript.htm" />
+          <HelpTOCNode Title="LibraryUri Property " Url="html/P_OpenQA_Selenium_Loaders_SizzleLoader_LibraryUri.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
